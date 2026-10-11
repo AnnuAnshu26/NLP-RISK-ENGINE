@@ -1,0 +1,5 @@
+# OPTIONAL: transformer backend (FinBERT sentiment + BART zero-shot). ~2 GB download.
+# Enable with:  NLP_BACKEND=finbert  (Windows: set NLP_BACKEND=finbert)
+-r requirements.txt
+transformers>=4.40
+torch>=2.2
