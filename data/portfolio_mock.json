@@ -1,0 +1,224 @@
+{
+  "currency": "USD",
+  "as_of": "2026-09-14",
+  "note": "Fully synthetic wholesale-banking book for demonstration only.",
+  "loans": [
+    {
+      "id": "LN-01",
+      "borrower": "Synthetic Corp 1",
+      "sector": "Energy",
+      "rating": "B",
+      "notional": 75000000.0,
+      "rate_type": "floating",
+      "spread_duration": 4.26,
+      "pd": 0.055,
+      "lgd": 0.55
+    },
+    {
+      "id": "LN-02",
+      "borrower": "Synthetic Corp 2",
+      "sector": "Technology",
+      "rating": "A",
+      "notional": 150000000.0,
+      "rate_type": "fixed",
+      "spread_duration": 1.75,
+      "pd": 0.002,
+      "lgd": 0.44
+    },
+    {
+      "id": "LN-03",
+      "borrower": "Synthetic Corp 3",
+      "sector": "Financials",
+      "rating": "B",
+      "notional": 75000000.0,
+      "rate_type": "fixed",
+      "spread_duration": 2.28,
+      "pd": 0.055,
+      "lgd": 0.42
+    },
+    {
+      "id": "LN-04",
+      "borrower": "Synthetic Corp 4",
+      "sector": "Healthcare",
+      "rating": "B",
+      "notional": 100000000.0,
+      "rate_type": "floating",
+      "spread_duration": 3.78,
+      "pd": 0.055,
+      "lgd": 0.43
+    },
+    {
+      "id": "LN-05",
+      "borrower": "Synthetic Corp 5",
+      "sector": "Consumer",
+      "rating": "B",
+      "notional": 100000000.0,
+      "rate_type": "fixed",
+      "spread_duration": 2.91,
+      "pd": 0.055,
+      "lgd": 0.5
+    },
+    {
+      "id": "LN-06",
+      "borrower": "Synthetic Corp 6",
+      "sector": "Industrials",
+      "rating": "A",
+      "notional": 100000000.0,
+      "rate_type": "fixed",
+      "spread_duration": 3.45,
+      "pd": 0.002,
+      "lgd": 0.51
+    },
+    {
+      "id": "LN-07",
+      "borrower": "Synthetic Corp 7",
+      "sector": "Real Estate",
+      "rating": "A",
+      "notional": 50000000.0,
+      "rate_type": "fixed",
+      "spread_duration": 2.1,
+      "pd": 0.002,
+      "lgd": 0.35
+    },
+    {
+      "id": "LN-08",
+      "borrower": "Synthetic Corp 8",
+      "sector": "Shipping",
+      "rating": "BBB",
+      "notional": 75000000.0,
+      "rate_type": "fixed",
+      "spread_duration": 2.92,
+      "pd": 0.006,
+      "lgd": 0.37
+    }
+  ],
+  "bonds": [
+    {
+      "id": "BD-01",
+      "issuer": "Synthetic Issuer 1",
+      "rating": "AA",
+      "market_value": 120000000.0,
+      "mod_duration": 6.9,
+      "convexity": 70.9,
+      "sector": "Financials"
+    },
+    {
+      "id": "BD-02",
+      "issuer": "Synthetic Issuer 2",
+      "rating": "BB",
+      "market_value": 40000000.0,
+      "mod_duration": 7.44,
+      "convexity": 21.4,
+      "sector": "Consumer"
+    },
+    {
+      "id": "BD-03",
+      "issuer": "Synthetic Issuer 3",
+      "rating": "AAA",
+      "market_value": 40000000.0,
+      "mod_duration": 8.5,
+      "convexity": 55.2,
+      "sector": "Real Estate"
+    },
+    {
+      "id": "BD-04",
+      "issuer": "Synthetic Issuer 4",
+      "rating": "BBB",
+      "market_value": 60000000.0,
+      "mod_duration": 2.53,
+      "convexity": 64.6,
+      "sector": "Healthcare"
+    },
+    {
+      "id": "BD-05",
+      "issuer": "Synthetic Issuer 5",
+      "rating": "AAA",
+      "market_value": 80000000.0,
+      "mod_duration": 7.95,
+      "convexity": 57.2,
+      "sector": "Technology"
+    },
+    {
+      "id": "BD-06",
+      "issuer": "Synthetic Issuer 6",
+      "rating": "BB",
+      "market_value": 40000000.0,
+      "mod_duration": 4.43,
+      "convexity": 43.1,
+      "sector": "Industrials"
+    }
+  ],
+  "derivatives": [
+    {
+      "id": "DR-01",
+      "type": "interest_rate_swap",
+      "description": "Pay-fixed 5Y IRS",
+      "notional": 300000000.0,
+      "dv01": 125000.0,
+      "mtm": 4200000.0
+    },
+    {
+      "id": "DR-02",
+      "type": "interest_rate_swap",
+      "description": "Receive-fixed 10Y IRS",
+      "notional": 200000000.0,
+      "dv01": -160000.0,
+      "mtm": -2100000.0
+    },
+    {
+      "id": "DR-03",
+      "type": "equity_index_put",
+      "description": "S&P 500 protective put",
+      "underlying_notional": 250000000.0,
+      "delta": -0.35,
+      "mtm": 6500000.0
+    },
+    {
+      "id": "DR-04",
+      "type": "credit_default_swap",
+      "description": "CDS protection bought on corporate basket",
+      "notional": 120000000.0,
+      "cs01": 45000.0,
+      "mtm": 1100000.0
+    },
+    {
+      "id": "DR-05",
+      "type": "fx_forward",
+      "description": "EUR/USD forward",
+      "notional": 90000000.0,
+      "mtm": 400000.0
+    }
+  ],
+  "equities": [
+    {
+      "id": "EQ-01",
+      "ticker": "AAPL",
+      "market_value": 25000000.0
+    },
+    {
+      "id": "EQ-02",
+      "ticker": "MSFT",
+      "market_value": 60000000.0
+    },
+    {
+      "id": "EQ-03",
+      "ticker": "JPM",
+      "market_value": 25000000.0
+    },
+    {
+      "id": "EQ-04",
+      "ticker": "XOM",
+      "market_value": 90000000.0
+    },
+    {
+      "id": "EQ-05",
+      "ticker": "NVDA",
+      "market_value": 90000000.0
+    },
+    {
+      "id": "EQ-06",
+      "ticker": "WMT",
+      "market_value": 25000000.0
+    }
+  ]
+}

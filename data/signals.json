@@ -1,0 +1,3445 @@
+[
+  {
+    "signal_id": "news-003",
+    "source": "Demo Business Daily",
+    "source_type": "news",
+    "timestamp": "2026-09-14T08:01:00Z",
+    "text": "Johnson & Johnson introduces next-generation platform to enthusiastic reviews",
+    "tickers": [
+      "JNJ"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.462,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 3.4,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+0.9",
+      "matched['introduces', 'next-generation']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-003",
+    "source": "@trader_35",
+    "source_type": "social",
+    "timestamp": "2026-09-14T08:37:00Z",
+    "text": "heard Meta Platforms is buying a rival, big merger news, bullish $META",
+    "tickers": [
+      "META"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.583,
+    "sentiment_label": "positive",
+    "event_category": "Merger/Acquisition",
+    "category_confidence": 1.0,
+    "impact_score": 4.2,
+    "drivers": [
+      "base[Merger/Acquisition]=3.5",
+      "|sentiment|x2=+1.2",
+      "social-source x0.9",
+      "matched['merger', 'merge', 'buying a rival', 'buy']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-005",
+    "source": "Demo Business Daily",
+    "source_type": "news",
+    "timestamp": "2026-09-14T11:28:00Z",
+    "text": "Central bank shocks markets with surprise rate hike as inflation surges",
+    "tickers": [],
+    "scope": "market",
+    "sentiment_score": -0.931,
+    "sentiment_label": "negative",
+    "event_category": "Macroeconomic",
+    "category_confidence": 1.0,
+    "impact_score": 9.2,
+    "drivers": [
+      "base[Macroeconomic]=5.0",
+      "severity['surprise']=+0.8",
+      "|sentiment|x2=+1.9",
+      "market-wide=+1.0",
+      "broad-language=+0.5",
+      "matched['central bank', 'rate hike', 'inflation']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-004",
+    "source": "@trader_4",
+    "source_type": "social",
+    "timestamp": "2026-09-14T13:03:00Z",
+    "text": "watching $AAPL today, nothing much happening",
+    "tickers": [
+      "AAPL"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 1.8,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+0.0",
+      "social-source x0.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-001",
+    "source": "@trader_36",
+    "source_type": "social",
+    "timestamp": "2026-09-14T14:44:00Z",
+    "text": "$BAC merger blocked by regulators, takeover collapse. ouch",
+    "tickers": [
+      "BAC"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.95,
+    "sentiment_label": "negative",
+    "event_category": "Merger/Acquisition",
+    "category_confidence": 1.0,
+    "impact_score": 5.6,
+    "drivers": [
+      "base[Merger/Acquisition]=3.5",
+      "severity['collaps']=+0.8",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9",
+      "matched['merger', 'merge', 'takeover']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-002",
+    "source": "@trader_13",
+    "source_type": "social",
+    "timestamp": "2026-09-14T15:09:00Z",
+    "text": "watching $JNJ today, nothing much happening",
+    "tickers": [
+      "JNJ"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 1.8,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+0.0",
+      "social-source x0.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-006",
+    "source": "@trader_12",
+    "source_type": "social",
+    "timestamp": "2026-09-14T16:05:00Z",
+    "text": "$NVDA looking strong after the launch, bullish into next week",
+    "tickers": [
+      "NVDA"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.823,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 3.7,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.6",
+      "social-source x0.9",
+      "matched['launch']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-004",
+    "source": "MarketDesk Demo",
+    "source_type": "news",
+    "timestamp": "2026-09-14T16:38:00Z",
+    "text": "Microsoft abandons takeover after regulators block the deal, stock slides",
+    "tickers": [
+      "MSFT"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.931,
+    "sentiment_label": "negative",
+    "event_category": "Merger/Acquisition",
+    "category_confidence": 1.0,
+    "impact_score": 5.4,
+    "drivers": [
+      "base[Merger/Acquisition]=3.5",
+      "|sentiment|x2=+1.9",
+      "matched['takeover', 'deal']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-005",
+    "source": "@trader_34",
+    "source_type": "social",
+    "timestamp": "2026-09-14T16:58:00Z",
+    "text": "$CVX earnings beat and guidance raised, great quarter",
+    "tickers": [
+      "CVX"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.931,
+    "sentiment_label": "positive",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.5,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-007",
+    "source": "@trader_16",
+    "source_type": "social",
+    "timestamp": "2026-09-14T18:55:00Z",
+    "text": "war escalating, missiles hitting shipping lanes, markets crashing #markets",
+    "tickers": [],
+    "scope": "market",
+    "sentiment_score": -0.993,
+    "sentiment_label": "negative",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 10.0,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "severity['war', 'crash', 'escalat', 'missile']=+3.0",
+      "|sentiment|x2=+2.0",
+      "market-wide=+1.0",
+      "broad-language=+0.5",
+      "social-source x0.9",
+      "matched['war', 'missile']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-002",
+    "source": "MarketDesk Demo",
+    "source_type": "news",
+    "timestamp": "2026-09-14T19:06:00Z",
+    "text": "Alphabet credit rating downgraded as debt concerns mount",
+    "tickers": [
+      "GOOGL"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.87,
+    "sentiment_label": "negative",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 6.2,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "|sentiment|x2=+1.7",
+      "matched['downgrade', 'credit rating', 'debt', 'credit']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-001",
+    "source": "Synthetic Wire",
+    "source_type": "news",
+    "timestamp": "2026-09-14T19:17:00Z",
+    "text": "Johnson & Johnson delays product launch after serious defects found in testing",
+    "tickers": [
+      "JNJ"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.823,
+    "sentiment_label": "negative",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 4.1,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.6",
+      "matched['launch']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-008",
+    "source": "Synthetic Wire",
+    "source_type": "news",
+    "timestamp": "2026-09-15T09:24:00Z",
+    "text": "Alphabet beats earnings expectations and raises full-year guidance",
+    "tickers": [
+      "GOOGL"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.823,
+    "sentiment_label": "positive",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.6,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.6"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-010",
+    "source": "Synthetic Wire",
+    "source_type": "news",
+    "timestamp": "2026-09-15T09:46:00Z",
+    "text": "Nvidia unveils next-generation AI platform to enthusiastic reviews and record preorders",
+    "tickers": [
+      "NVDA"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.87,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 4.2,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.7",
+      "matched['unveil', 'next-generation']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-015",
+    "source": "@trader_14",
+    "source_type": "social",
+    "timestamp": "2026-09-15T10:34:00Z",
+    "text": "$NVDA nvidia unveils next-generation ai platform to enthusiastic reviews and record preorders",
+    "tickers": [
+      "NVDA"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.87,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 3.8,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.7",
+      "social-source x0.9",
+      "matched['unveil', 'next-generation']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-011",
+    "source": "@trader_21",
+    "source_type": "social",
+    "timestamp": "2026-09-15T11:42:00Z",
+    "text": "$DIS merger blocked by regulators, takeover collapse. ouch",
+    "tickers": [
+      "DIS"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.95,
+    "sentiment_label": "negative",
+    "event_category": "Merger/Acquisition",
+    "category_confidence": 1.0,
+    "impact_score": 5.6,
+    "drivers": [
+      "base[Merger/Acquisition]=3.5",
+      "severity['collaps']=+0.8",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9",
+      "matched['merger', 'merge', 'takeover']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-007",
+    "source": "Global Ledger (synthetic)",
+    "source_type": "news",
+    "timestamp": "2026-09-15T12:09:00Z",
+    "text": "Nvidia warns of heavy losses as costs surge",
+    "tickers": [
+      "NVDA"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.964,
+    "sentiment_label": "negative",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.9,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-012",
+    "source": "@trader_20",
+    "source_type": "social",
+    "timestamp": "2026-09-15T14:08:00Z",
+    "text": "$GOOGL merger blocked by regulators, takeover collapse. ouch",
+    "tickers": [
+      "GOOGL"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.95,
+    "sentiment_label": "negative",
+    "event_category": "Merger/Acquisition",
+    "category_confidence": 1.0,
+    "impact_score": 5.6,
+    "drivers": [
+      "base[Merger/Acquisition]=3.5",
+      "severity['collaps']=+0.8",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9",
+      "matched['merger', 'merge', 'takeover']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-009",
+    "source": "@trader_27",
+    "source_type": "social",
+    "timestamp": "2026-09-15T17:05:00Z",
+    "text": "$CVX looking strong after the launch, bullish into next week",
+    "tickers": [
+      "CVX"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.823,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 3.7,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.6",
+      "social-source x0.9",
+      "matched['launch']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-014",
+    "source": "@trader_5",
+    "source_type": "social",
+    "timestamp": "2026-09-15T17:06:00Z",
+    "text": "ceasefire reached! peace talks, markets rally, bullish",
+    "tickers": [],
+    "scope": "market",
+    "sentiment_score": 0.987,
+    "sentiment_label": "positive",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 8.1,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "|sentiment|x2=+2.0",
+      "market-wide=+1.0",
+      "broad-language=+0.5",
+      "social-source x0.9",
+      "matched['ceasefire', 'peace talks']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-008",
+    "source": "@trader_38",
+    "source_type": "social",
+    "timestamp": "2026-09-15T17:15:00Z",
+    "text": "$JPM new product is a huge hit, demand looks amazing",
+    "tickers": [
+      "JPM"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.853,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 3.8,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.7",
+      "social-source x0.9",
+      "matched['new product']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-009",
+    "source": "Global Ledger (synthetic)",
+    "source_type": "news",
+    "timestamp": "2026-09-15T17:16:00Z",
+    "text": "Microsoft misses earnings and cuts guidance amid weak demand",
+    "tickers": [
+      "MSFT"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.916,
+    "sentiment_label": "negative",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.8,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.8"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-010",
+    "source": "@trader_21",
+    "source_type": "social",
+    "timestamp": "2026-09-15T17:33:00Z",
+    "text": "$JNJ losses mounting, bearish, dumping my shares",
+    "tickers": [
+      "JNJ"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.964,
+    "sentiment_label": "negative",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.5,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-006",
+    "source": "Synthetic Wire",
+    "source_type": "news",
+    "timestamp": "2026-09-15T20:51:00Z",
+    "text": "Chevron faces default risk on maturing bonds, creditors alarmed",
+    "tickers": [
+      "CVX"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.87,
+    "sentiment_label": "negative",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 7.0,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "severity['default']=+0.8",
+      "|sentiment|x2=+1.7",
+      "matched['default', 'creditor', 'bonds', 'credit']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-013",
+    "source": "@trader_5",
+    "source_type": "social",
+    "timestamp": "2026-09-15T20:59:00Z",
+    "text": "$BAC credit downgrade, debt worries growing, selling",
+    "tickers": [
+      "BAC"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.95,
+    "sentiment_label": "negative",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 5.8,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9",
+      "matched['downgrade', 'debt', 'credit']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-011",
+    "source": "Demo Business Daily",
+    "source_type": "news",
+    "timestamp": "2026-09-16T09:35:00Z",
+    "text": "Bank of America delays product launch after serious defects found in testing",
+    "tickers": [
+      "BAC"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.823,
+    "sentiment_label": "negative",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 4.1,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.6",
+      "matched['launch']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-021",
+    "source": "@trader_36",
+    "source_type": "social",
+    "timestamp": "2026-09-16T09:47:00Z",
+    "text": "$META new product is a huge hit, demand looks amazing",
+    "tickers": [
+      "META"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.853,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 3.8,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.7",
+      "social-source x0.9",
+      "matched['new product']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-013",
+    "source": "Global Ledger (synthetic)",
+    "source_type": "news",
+    "timestamp": "2026-09-16T09:54:00Z",
+    "text": "Apple credit rating downgraded as debt concerns mount",
+    "tickers": [
+      "AAPL"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.87,
+    "sentiment_label": "negative",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 6.2,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "|sentiment|x2=+1.7",
+      "matched['downgrade', 'credit rating', 'debt', 'credit']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-020",
+    "source": "@trader_9",
+    "source_type": "social",
+    "timestamp": "2026-09-16T09:56:00Z",
+    "text": "sanctions hitting $META supply chain, shares sliding",
+    "tickers": [
+      "META"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.762,
+    "sentiment_label": "negative",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 5.9,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "|sentiment|x2=+1.5",
+      "company-specific=-0.5",
+      "social-source x0.9",
+      "matched['sanction']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-016",
+    "source": "@trader_23",
+    "source_type": "social",
+    "timestamp": "2026-09-16T10:59:00Z",
+    "text": "$XOM merger blocked by regulators, takeover collapse. ouch",
+    "tickers": [
+      "XOM"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.95,
+    "sentiment_label": "negative",
+    "event_category": "Merger/Acquisition",
+    "category_confidence": 1.0,
+    "impact_score": 5.6,
+    "drivers": [
+      "base[Merger/Acquisition]=3.5",
+      "severity['collaps']=+0.8",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9",
+      "matched['merger', 'merge', 'takeover']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-017",
+    "source": "@trader_19",
+    "source_type": "social",
+    "timestamp": "2026-09-16T11:23:00Z",
+    "text": "$DIS new product is a huge hit, demand looks amazing",
+    "tickers": [
+      "DIS"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.853,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 3.8,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.7",
+      "social-source x0.9",
+      "matched['new product']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-014",
+    "source": "Demo Business Daily",
+    "source_type": "news",
+    "timestamp": "2026-09-16T12:29:00Z",
+    "text": "Alphabet delays product launch after serious defects found in testing",
+    "tickers": [
+      "GOOGL"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.823,
+    "sentiment_label": "negative",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 4.1,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.6",
+      "matched['launch']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-019",
+    "source": "@trader_36",
+    "source_type": "social",
+    "timestamp": "2026-09-16T16:00:00Z",
+    "text": "sanctions hitting $CVX supply chain, shares sliding",
+    "tickers": [
+      "CVX"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.762,
+    "sentiment_label": "negative",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 5.9,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "|sentiment|x2=+1.5",
+      "company-specific=-0.5",
+      "social-source x0.9",
+      "matched['sanction']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-018",
+    "source": "@trader_20",
+    "source_type": "social",
+    "timestamp": "2026-09-16T16:45:00Z",
+    "text": "$NVDA earnings beat and guidance raised, great quarter",
+    "tickers": [
+      "NVDA"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.931,
+    "sentiment_label": "positive",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.5,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-022",
+    "source": "@trader_22",
+    "source_type": "social",
+    "timestamp": "2026-09-16T17:13:00Z",
+    "text": "surprise rate hike!! inflation surging, recession fears, stocks tumble",
+    "tickers": [],
+    "scope": "market",
+    "sentiment_score": -0.987,
+    "sentiment_label": "negative",
+    "event_category": "Macroeconomic",
+    "category_confidence": 1.0,
+    "impact_score": 8.6,
+    "drivers": [
+      "base[Macroeconomic]=5.0",
+      "severity['recession', 'surprise']=+1.6",
+      "|sentiment|x2=+2.0",
+      "market-wide=+1.0",
+      "social-source x0.9",
+      "matched['rate hike', 'inflation', 'recession']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-012",
+    "source": "MarketDesk Demo",
+    "source_type": "news",
+    "timestamp": "2026-09-16T19:04:00Z",
+    "text": "Meta Platforms misses earnings and cuts guidance amid weak demand",
+    "tickers": [
+      "META"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.916,
+    "sentiment_label": "negative",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.8,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.8"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-020",
+    "source": "Synthetic Wire",
+    "source_type": "news",
+    "timestamp": "2026-09-17T09:04:00Z",
+    "text": "Armed conflict escalates as missile strikes hit key shipping route; global markets plunge, systemic fears grow",
+    "tickers": [],
+    "scope": "market",
+    "sentiment_score": -0.999,
+    "sentiment_label": "negative",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 10.0,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "severity['systemic', 'plunge', 'escalat', 'missile']=+3.0",
+      "|sentiment|x2=+2.0",
+      "market-wide=+1.0",
+      "broad-language=+0.5",
+      "matched['armed conflict', 'conflict', 'missile', 'shipping route']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-021",
+    "source": "Synthetic Wire",
+    "source_type": "news",
+    "timestamp": "2026-09-17T09:13:00Z",
+    "text": "Exxon Mobil faces supply disruption as war threatens oil routes, shares slide",
+    "tickers": [
+      "XOM"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.981,
+    "sentiment_label": "negative",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 7.8,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "severity['war']=+0.8",
+      "|sentiment|x2=+2.0",
+      "company-specific=-0.5",
+      "matched['war']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-029",
+    "source": "@trader_3",
+    "source_type": "social",
+    "timestamp": "2026-09-17T10:34:00Z",
+    "text": "rate cut signal, inflation cooling, stocks surge today",
+    "tickers": [],
+    "scope": "market",
+    "sentiment_score": 0.964,
+    "sentiment_label": "positive",
+    "event_category": "Macroeconomic",
+    "category_confidence": 1.0,
+    "impact_score": 7.1,
+    "drivers": [
+      "base[Macroeconomic]=5.0",
+      "|sentiment|x2=+1.9",
+      "market-wide=+1.0",
+      "social-source x0.9",
+      "matched['rate cut', 'inflation']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-031",
+    "source": "@trader_36",
+    "source_type": "social",
+    "timestamp": "2026-09-17T10:37:00Z",
+    "text": "$XOM exxon mobil faces supply disruption as war threatens oil routes",
+    "tickers": [
+      "XOM"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.95,
+    "sentiment_label": "negative",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 6.9,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "severity['war']=+0.8",
+      "|sentiment|x2=+1.9",
+      "company-specific=-0.5",
+      "social-source x0.9",
+      "matched['war']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-027",
+    "source": "@trader_29",
+    "source_type": "social",
+    "timestamp": "2026-09-17T10:47:00Z",
+    "text": "$JNJ merger blocked by regulators, takeover collapse. ouch",
+    "tickers": [
+      "JNJ"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.95,
+    "sentiment_label": "negative",
+    "event_category": "Merger/Acquisition",
+    "category_confidence": 1.0,
+    "impact_score": 5.6,
+    "drivers": [
+      "base[Merger/Acquisition]=3.5",
+      "severity['collaps']=+0.8",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9",
+      "matched['merger', 'merge', 'takeover']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-030",
+    "source": "@trader_24",
+    "source_type": "social",
+    "timestamp": "2026-09-17T10:53:00Z",
+    "text": "breaking: armed conflict escalates as missile strikes hit key shipping route",
+    "tickers": [],
+    "scope": "market",
+    "sentiment_score": -0.964,
+    "sentiment_label": "negative",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 9.0,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "severity['escalat', 'missile']=+1.6",
+      "|sentiment|x2=+1.9",
+      "market-wide=+1.0",
+      "social-source x0.9",
+      "matched['armed conflict', 'conflict', 'missile', 'shipping route']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-024",
+    "source": "@trader_4",
+    "source_type": "social",
+    "timestamp": "2026-09-17T12:57:00Z",
+    "text": "$XOM earnings beat and guidance raised, great quarter",
+    "tickers": [
+      "XOM"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.931,
+    "sentiment_label": "positive",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.5,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-015",
+    "source": "Global Ledger (synthetic)",
+    "source_type": "news",
+    "timestamp": "2026-09-17T13:13:00Z",
+    "text": "Amazon announces merger with industry peer, shares jump on growth outlook",
+    "tickers": [
+      "AMZN"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.762,
+    "sentiment_label": "positive",
+    "event_category": "Merger/Acquisition",
+    "category_confidence": 1.0,
+    "impact_score": 5.0,
+    "drivers": [
+      "base[Merger/Acquisition]=3.5",
+      "|sentiment|x2=+1.5",
+      "matched['merger', 'merge']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-026",
+    "source": "@trader_9",
+    "source_type": "social",
+    "timestamp": "2026-09-17T13:49:00Z",
+    "text": "$AAPL looking strong after the launch, bullish into next week",
+    "tickers": [
+      "AAPL"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.823,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 3.7,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.6",
+      "social-source x0.9",
+      "matched['launch']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-019",
+    "source": "Global Ledger (synthetic)",
+    "source_type": "news",
+    "timestamp": "2026-09-17T14:17:00Z",
+    "text": "Armed conflict escalates as missile strikes hit key shipping route; global markets plunge",
+    "tickers": [],
+    "scope": "market",
+    "sentiment_score": -0.993,
+    "sentiment_label": "negative",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 10.0,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "severity['plunge', 'escalat', 'missile']=+2.4",
+      "|sentiment|x2=+2.0",
+      "market-wide=+1.0",
+      "broad-language=+0.5",
+      "matched['armed conflict', 'conflict', 'missile', 'shipping route']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-028",
+    "source": "@trader_1",
+    "source_type": "social",
+    "timestamp": "2026-09-17T14:35:00Z",
+    "text": "watching $XOM today, nothing much happening",
+    "tickers": [
+      "XOM"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 1.8,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+0.0",
+      "social-source x0.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-025",
+    "source": "@trader_18",
+    "source_type": "social",
+    "timestamp": "2026-09-17T14:53:00Z",
+    "text": "sanctions hitting $MSFT supply chain, shares sliding",
+    "tickers": [
+      "MSFT"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.762,
+    "sentiment_label": "negative",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 5.9,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "|sentiment|x2=+1.5",
+      "company-specific=-0.5",
+      "social-source x0.9",
+      "matched['sanction']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-017",
+    "source": "MarketDesk Demo",
+    "source_type": "news",
+    "timestamp": "2026-09-17T15:24:00Z",
+    "text": "Nvidia credit rating downgraded as debt concerns mount",
+    "tickers": [
+      "NVDA"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.87,
+    "sentiment_label": "negative",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 6.2,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "|sentiment|x2=+1.7",
+      "matched['downgrade', 'credit rating', 'debt', 'credit']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-016",
+    "source": "Synthetic Wire",
+    "source_type": "news",
+    "timestamp": "2026-09-17T17:40:00Z",
+    "text": "Johnson & Johnson faces default risk on maturing bonds, creditors alarmed",
+    "tickers": [
+      "JNJ"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.87,
+    "sentiment_label": "negative",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 7.0,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "severity['default']=+0.8",
+      "|sentiment|x2=+1.7",
+      "matched['default', 'creditor', 'bonds', 'credit']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-023",
+    "source": "@trader_17",
+    "source_type": "social",
+    "timestamp": "2026-09-17T18:54:00Z",
+    "text": "sanctions hitting $GOOGL supply chain, shares sliding",
+    "tickers": [
+      "GOOGL"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.762,
+    "sentiment_label": "negative",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 5.9,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "|sentiment|x2=+1.5",
+      "company-specific=-0.5",
+      "social-source x0.9",
+      "matched['sanction']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-018",
+    "source": "Global Ledger (synthetic)",
+    "source_type": "news",
+    "timestamp": "2026-09-17T20:49:00Z",
+    "text": "Meta Platforms credit rating downgraded as debt concerns mount",
+    "tickers": [
+      "META"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.87,
+    "sentiment_label": "negative",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 6.2,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "|sentiment|x2=+1.7",
+      "matched['downgrade', 'credit rating', 'debt', 'credit']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-037",
+    "source": "@trader_22",
+    "source_type": "social",
+    "timestamp": "2026-09-18T08:11:00Z",
+    "text": "$DIS default fears rising on its bonds, avoid",
+    "tickers": [
+      "DIS"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.823,
+    "sentiment_label": "negative",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 6.3,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "severity['default']=+0.8",
+      "|sentiment|x2=+1.6",
+      "social-source x0.9",
+      "matched['default', 'bonds']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-032",
+    "source": "@trader_20",
+    "source_type": "social",
+    "timestamp": "2026-09-18T10:02:00Z",
+    "text": "$NVDA default fears rising on its bonds, avoid",
+    "tickers": [
+      "NVDA"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.823,
+    "sentiment_label": "negative",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 6.3,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "severity['default']=+0.8",
+      "|sentiment|x2=+1.6",
+      "social-source x0.9",
+      "matched['default', 'bonds']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-026",
+    "source": "Synthetic Wire",
+    "source_type": "news",
+    "timestamp": "2026-09-18T10:40:00Z",
+    "text": "Armed conflict escalates as missile strikes hit key shipping route; global markets plunge",
+    "tickers": [],
+    "scope": "market",
+    "sentiment_score": -0.993,
+    "sentiment_label": "negative",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 10.0,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "severity['plunge', 'escalat', 'missile']=+2.4",
+      "|sentiment|x2=+2.0",
+      "market-wide=+1.0",
+      "broad-language=+0.5",
+      "matched['armed conflict', 'conflict', 'missile', 'shipping route']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-036",
+    "source": "@trader_12",
+    "source_type": "social",
+    "timestamp": "2026-09-18T10:51:00Z",
+    "text": "heard Disney is buying a rival, big merger news, bullish $DIS",
+    "tickers": [
+      "DIS"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.583,
+    "sentiment_label": "positive",
+    "event_category": "Merger/Acquisition",
+    "category_confidence": 1.0,
+    "impact_score": 4.2,
+    "drivers": [
+      "base[Merger/Acquisition]=3.5",
+      "|sentiment|x2=+1.2",
+      "social-source x0.9",
+      "matched['merger', 'merge', 'buying a rival', 'buy']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-023",
+    "source": "MarketDesk Demo",
+    "source_type": "news",
+    "timestamp": "2026-09-18T12:08:00Z",
+    "text": "Sanctions and export curbs threaten JPMorgan Chase supply chain, shares slide",
+    "tickers": [
+      "JPM"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.95,
+    "sentiment_label": "negative",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 6.9,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "|sentiment|x2=+1.9",
+      "company-specific=-0.5",
+      "matched['sanction', 'export curbs']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-033",
+    "source": "@trader_16",
+    "source_type": "social",
+    "timestamp": "2026-09-18T13:13:00Z",
+    "text": "$AMZN looking strong after the launch, bullish into next week",
+    "tickers": [
+      "AMZN"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.823,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 3.7,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.6",
+      "social-source x0.9",
+      "matched['launch']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-034",
+    "source": "@trader_36",
+    "source_type": "social",
+    "timestamp": "2026-09-18T13:49:00Z",
+    "text": "$JNJ new product is a huge hit, demand looks amazing",
+    "tickers": [
+      "JNJ"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.853,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 3.8,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.7",
+      "social-source x0.9",
+      "matched['new product']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-025",
+    "source": "MarketDesk Demo",
+    "source_type": "news",
+    "timestamp": "2026-09-18T16:31:00Z",
+    "text": "Amazon credit rating downgraded as debt concerns mount",
+    "tickers": [
+      "AMZN"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.87,
+    "sentiment_label": "negative",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 6.2,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "|sentiment|x2=+1.7",
+      "matched['downgrade', 'credit rating', 'debt', 'credit']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-024",
+    "source": "Demo Business Daily",
+    "source_type": "news",
+    "timestamp": "2026-09-18T17:25:00Z",
+    "text": "Alphabet faces default risk on maturing bonds, creditors alarmed",
+    "tickers": [
+      "GOOGL"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.87,
+    "sentiment_label": "negative",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 7.0,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "severity['default']=+0.8",
+      "|sentiment|x2=+1.7",
+      "matched['default', 'creditor', 'bonds', 'credit']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-035",
+    "source": "@trader_10",
+    "source_type": "social",
+    "timestamp": "2026-09-18T17:47:00Z",
+    "text": "$DIS default fears rising on its bonds, avoid",
+    "tickers": [
+      "DIS"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.823,
+    "sentiment_label": "negative",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 6.3,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "severity['default']=+0.8",
+      "|sentiment|x2=+1.6",
+      "social-source x0.9",
+      "matched['default', 'bonds']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-022",
+    "source": "MarketDesk Demo",
+    "source_type": "news",
+    "timestamp": "2026-09-18T18:31:00Z",
+    "text": "Disney beats earnings expectations and raises full-year guidance",
+    "tickers": [
+      "DIS"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.823,
+    "sentiment_label": "positive",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.6,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.6"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-032",
+    "source": "Synthetic Wire",
+    "source_type": "news",
+    "timestamp": "2026-09-21T09:06:00Z",
+    "text": "JPMorgan Chase credit rating downgraded as debt concerns mount, default fears spread",
+    "tickers": [
+      "JPM"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.974,
+    "sentiment_label": "negative",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 7.2,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "severity['default']=+0.8",
+      "|sentiment|x2=+1.9",
+      "matched['downgrade', 'credit rating', 'default', 'debt', 'credit']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-043",
+    "source": "@trader_18",
+    "source_type": "social",
+    "timestamp": "2026-09-21T09:49:00Z",
+    "text": "$AMZN merger blocked by regulators, takeover collapse. ouch",
+    "tickers": [
+      "AMZN"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.95,
+    "sentiment_label": "negative",
+    "event_category": "Merger/Acquisition",
+    "category_confidence": 1.0,
+    "impact_score": 5.6,
+    "drivers": [
+      "base[Merger/Acquisition]=3.5",
+      "severity['collaps']=+0.8",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9",
+      "matched['merger', 'merge', 'takeover']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-045",
+    "source": "@trader_2",
+    "source_type": "social",
+    "timestamp": "2026-09-21T10:21:00Z",
+    "text": "$JPM jpmorgan chase credit rating downgraded as debt concerns mount",
+    "tickers": [
+      "JPM"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.87,
+    "sentiment_label": "negative",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 5.6,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "|sentiment|x2=+1.7",
+      "social-source x0.9",
+      "matched['downgrade', 'credit rating', 'debt', 'credit']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-041",
+    "source": "@trader_15",
+    "source_type": "social",
+    "timestamp": "2026-09-21T13:19:00Z",
+    "text": "$KO earnings beat and guidance raised, great quarter",
+    "tickers": [
+      "KO"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.931,
+    "sentiment_label": "positive",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.5,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-030",
+    "source": "Global Ledger (synthetic)",
+    "source_type": "news",
+    "timestamp": "2026-09-21T14:10:00Z",
+    "text": "Amazon delays product launch after serious defects found in testing",
+    "tickers": [
+      "AMZN"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.823,
+    "sentiment_label": "negative",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 4.1,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.6",
+      "matched['launch']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-027",
+    "source": "Synthetic Wire",
+    "source_type": "news",
+    "timestamp": "2026-09-21T14:24:00Z",
+    "text": "Nvidia warns of heavy losses as costs surge",
+    "tickers": [
+      "NVDA"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.964,
+    "sentiment_label": "negative",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.9,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-044",
+    "source": "@trader_35",
+    "source_type": "social",
+    "timestamp": "2026-09-21T14:43:00Z",
+    "text": "ceasefire reached! peace talks, markets rally, bullish",
+    "tickers": [],
+    "scope": "market",
+    "sentiment_score": 0.987,
+    "sentiment_label": "positive",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 8.1,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "|sentiment|x2=+2.0",
+      "market-wide=+1.0",
+      "broad-language=+0.5",
+      "social-source x0.9",
+      "matched['ceasefire', 'peace talks']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-040",
+    "source": "@trader_13",
+    "source_type": "social",
+    "timestamp": "2026-09-21T15:14:00Z",
+    "text": "$JPM looking strong after the launch, bullish into next week",
+    "tickers": [
+      "JPM"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.823,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 3.7,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.6",
+      "social-source x0.9",
+      "matched['launch']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-028",
+    "source": "Global Ledger (synthetic)",
+    "source_type": "news",
+    "timestamp": "2026-09-21T16:55:00Z",
+    "text": "Sanctions and export curbs threaten Chevron supply chain, shares slide",
+    "tickers": [
+      "CVX"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.95,
+    "sentiment_label": "negative",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 6.9,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "|sentiment|x2=+1.9",
+      "company-specific=-0.5",
+      "matched['sanction', 'export curbs']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-031",
+    "source": "MarketDesk Demo",
+    "source_type": "news",
+    "timestamp": "2026-09-21T16:58:00Z",
+    "text": "Recession fears grow as unemployment jumps and GDP contracts sharply",
+    "tickers": [],
+    "scope": "market",
+    "sentiment_score": -0.931,
+    "sentiment_label": "negative",
+    "event_category": "Macroeconomic",
+    "category_confidence": 1.0,
+    "impact_score": 8.7,
+    "drivers": [
+      "base[Macroeconomic]=5.0",
+      "severity['recession']=+0.8",
+      "|sentiment|x2=+1.9",
+      "market-wide=+1.0",
+      "matched['recession', 'gdp', 'unemployment']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-042",
+    "source": "@trader_26",
+    "source_type": "social",
+    "timestamp": "2026-09-21T18:12:00Z",
+    "text": "$GOOGL looking strong after the launch, bullish into next week",
+    "tickers": [
+      "GOOGL"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.823,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 3.7,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.6",
+      "social-source x0.9",
+      "matched['launch']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-038",
+    "source": "@trader_16",
+    "source_type": "social",
+    "timestamp": "2026-09-21T19:51:00Z",
+    "text": "sanctions hitting $JPM supply chain, shares sliding",
+    "tickers": [
+      "JPM"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.762,
+    "sentiment_label": "negative",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 5.9,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "|sentiment|x2=+1.5",
+      "company-specific=-0.5",
+      "social-source x0.9",
+      "matched['sanction']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-029",
+    "source": "Global Ledger (synthetic)",
+    "source_type": "news",
+    "timestamp": "2026-09-21T20:41:00Z",
+    "text": "Apple delays product launch after serious defects found in testing",
+    "tickers": [
+      "AAPL"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.823,
+    "sentiment_label": "negative",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 4.1,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.6",
+      "matched['launch']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-039",
+    "source": "@trader_7",
+    "source_type": "social",
+    "timestamp": "2026-09-21T20:44:00Z",
+    "text": "$META launch delayed again, defects found. not good",
+    "tickers": [
+      "META"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.931,
+    "sentiment_label": "negative",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 3.9,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9",
+      "matched['launch']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-036",
+    "source": "MarketDesk Demo",
+    "source_type": "news",
+    "timestamp": "2026-09-22T08:15:00Z",
+    "text": "Coca-Cola secures credit rating upgrade after strong debt reduction",
+    "tickers": [
+      "KO"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.95,
+    "sentiment_label": "positive",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 6.4,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "|sentiment|x2=+1.9",
+      "matched['credit rating', 'debt', 'credit', 'rating upgrade', 'upgrade']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-037",
+    "source": "Synthetic Wire",
+    "source_type": "news",
+    "timestamp": "2026-09-22T09:05:00Z",
+    "text": "Central bank shocks markets with surprise rate hike as inflation surges and recession fears grow",
+    "tickers": [],
+    "scope": "market",
+    "sentiment_score": -0.964,
+    "sentiment_label": "negative",
+    "event_category": "Macroeconomic",
+    "category_confidence": 1.0,
+    "impact_score": 10.0,
+    "drivers": [
+      "base[Macroeconomic]=5.0",
+      "severity['recession', 'surprise']=+1.6",
+      "|sentiment|x2=+1.9",
+      "market-wide=+1.0",
+      "broad-language=+0.5",
+      "matched['central bank', 'rate hike', 'inflation', 'recession']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-033",
+    "source": "MarketDesk Demo",
+    "source_type": "news",
+    "timestamp": "2026-09-22T10:23:00Z",
+    "text": "Coca-Cola secures credit rating upgrade after strong debt reduction",
+    "tickers": [
+      "KO"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.95,
+    "sentiment_label": "positive",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 6.4,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "|sentiment|x2=+1.9",
+      "matched['credit rating', 'debt', 'credit', 'rating upgrade', 'upgrade']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-046",
+    "source": "@trader_17",
+    "source_type": "social",
+    "timestamp": "2026-09-22T10:37:00Z",
+    "text": "$MSFT merger blocked by regulators, takeover collapse. ouch",
+    "tickers": [
+      "MSFT"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.95,
+    "sentiment_label": "negative",
+    "event_category": "Merger/Acquisition",
+    "category_confidence": 1.0,
+    "impact_score": 5.6,
+    "drivers": [
+      "base[Merger/Acquisition]=3.5",
+      "severity['collaps']=+0.8",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9",
+      "matched['merger', 'merge', 'takeover']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-053",
+    "source": "@trader_21",
+    "source_type": "social",
+    "timestamp": "2026-09-22T10:39:00Z",
+    "text": "breaking: central bank shocks markets with surprise rate hike as inflation surges and recession fears grow",
+    "tickers": [],
+    "scope": "market",
+    "sentiment_score": -0.964,
+    "sentiment_label": "negative",
+    "event_category": "Macroeconomic",
+    "category_confidence": 1.0,
+    "impact_score": 9.0,
+    "drivers": [
+      "base[Macroeconomic]=5.0",
+      "severity['recession', 'surprise']=+1.6",
+      "|sentiment|x2=+1.9",
+      "market-wide=+1.0",
+      "broad-language=+0.5",
+      "social-source x0.9",
+      "matched['central bank', 'rate hike', 'inflation', 'recession']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-035",
+    "source": "Synthetic Wire",
+    "source_type": "news",
+    "timestamp": "2026-09-22T13:56:00Z",
+    "text": "Bank of America unveils new product line, analysts applaud strong early demand",
+    "tickers": [
+      "BAC"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.892,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 4.3,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.8",
+      "matched['unveil', 'new product']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-050",
+    "source": "@trader_34",
+    "source_type": "social",
+    "timestamp": "2026-09-22T14:00:00Z",
+    "text": "watching $AAPL today, nothing much happening",
+    "tickers": [
+      "AAPL"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 1.8,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+0.0",
+      "social-source x0.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-048",
+    "source": "@trader_33",
+    "source_type": "social",
+    "timestamp": "2026-09-22T14:38:00Z",
+    "text": "$PFE credit downgrade, debt worries growing, selling",
+    "tickers": [
+      "PFE"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.95,
+    "sentiment_label": "negative",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 5.8,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9",
+      "matched['downgrade', 'debt', 'credit']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-049",
+    "source": "@trader_17",
+    "source_type": "social",
+    "timestamp": "2026-09-22T17:12:00Z",
+    "text": "$MSFT default fears rising on its bonds, avoid",
+    "tickers": [
+      "MSFT"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.823,
+    "sentiment_label": "negative",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 6.3,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "severity['default']=+0.8",
+      "|sentiment|x2=+1.6",
+      "social-source x0.9",
+      "matched['default', 'bonds']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-034",
+    "source": "Synthetic Wire",
+    "source_type": "news",
+    "timestamp": "2026-09-22T17:20:00Z",
+    "text": "Walmart announces merger with industry peer, shares jump on growth outlook",
+    "tickers": [
+      "WMT"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.762,
+    "sentiment_label": "positive",
+    "event_category": "Merger/Acquisition",
+    "category_confidence": 1.0,
+    "impact_score": 5.0,
+    "drivers": [
+      "base[Merger/Acquisition]=3.5",
+      "|sentiment|x2=+1.5",
+      "matched['merger', 'merge']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-047",
+    "source": "@trader_23",
+    "source_type": "social",
+    "timestamp": "2026-09-22T17:27:00Z",
+    "text": "$AAPL new product is a huge hit, demand looks amazing",
+    "tickers": [
+      "AAPL"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.853,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 3.8,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.7",
+      "social-source x0.9",
+      "matched['new product']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-051",
+    "source": "@trader_13",
+    "source_type": "social",
+    "timestamp": "2026-09-22T18:46:00Z",
+    "text": "$DIS earnings miss, weak demand, guidance cut. terrible",
+    "tickers": [
+      "DIS"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.977,
+    "sentiment_label": "negative",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.6,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+2.0",
+      "social-source x0.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-052",
+    "source": "@trader_22",
+    "source_type": "social",
+    "timestamp": "2026-09-22T18:58:00Z",
+    "text": "war escalating, missiles hitting shipping lanes, markets crashing #markets",
+    "tickers": [],
+    "scope": "market",
+    "sentiment_score": -0.993,
+    "sentiment_label": "negative",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 10.0,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "severity['war', 'crash', 'escalat', 'missile']=+3.0",
+      "|sentiment|x2=+2.0",
+      "market-wide=+1.0",
+      "broad-language=+0.5",
+      "social-source x0.9",
+      "matched['war', 'missile']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-059",
+    "source": "@trader_14",
+    "source_type": "social",
+    "timestamp": "2026-09-23T12:18:00Z",
+    "text": "$KO looking strong after the launch, bullish into next week",
+    "tickers": [
+      "KO"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.823,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 3.7,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.6",
+      "social-source x0.9",
+      "matched['launch']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-058",
+    "source": "@trader_36",
+    "source_type": "social",
+    "timestamp": "2026-09-23T12:25:00Z",
+    "text": "$CVX losses mounting, bearish, dumping my shares",
+    "tickers": [
+      "CVX"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.964,
+    "sentiment_label": "negative",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.5,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-056",
+    "source": "@trader_9",
+    "source_type": "social",
+    "timestamp": "2026-09-23T12:35:00Z",
+    "text": "watching $JPM today, nothing much happening",
+    "tickers": [
+      "JPM"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 1.8,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+0.0",
+      "social-source x0.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-041",
+    "source": "MarketDesk Demo",
+    "source_type": "news",
+    "timestamp": "2026-09-23T16:48:00Z",
+    "text": "Chevron warns of heavy losses as costs surge",
+    "tickers": [
+      "CVX"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.964,
+    "sentiment_label": "negative",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.9,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-040",
+    "source": "Global Ledger (synthetic)",
+    "source_type": "news",
+    "timestamp": "2026-09-23T16:55:00Z",
+    "text": "Exxon Mobil announces merger with industry peer, shares jump on growth outlook",
+    "tickers": [
+      "XOM"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.762,
+    "sentiment_label": "positive",
+    "event_category": "Merger/Acquisition",
+    "category_confidence": 1.0,
+    "impact_score": 5.0,
+    "drivers": [
+      "base[Merger/Acquisition]=3.5",
+      "|sentiment|x2=+1.5",
+      "matched['merger', 'merge']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-060",
+    "source": "@trader_21",
+    "source_type": "social",
+    "timestamp": "2026-09-23T17:41:00Z",
+    "text": "ceasefire reached! peace talks, markets rally, bullish",
+    "tickers": [],
+    "scope": "market",
+    "sentiment_score": 0.987,
+    "sentiment_label": "positive",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 8.1,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "|sentiment|x2=+2.0",
+      "market-wide=+1.0",
+      "broad-language=+0.5",
+      "social-source x0.9",
+      "matched['ceasefire', 'peace talks']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-057",
+    "source": "@trader_12",
+    "source_type": "social",
+    "timestamp": "2026-09-23T18:24:00Z",
+    "text": "$GOOGL default fears rising on its bonds, avoid",
+    "tickers": [
+      "GOOGL"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.823,
+    "sentiment_label": "negative",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 6.3,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "severity['default']=+0.8",
+      "|sentiment|x2=+1.6",
+      "social-source x0.9",
+      "matched['default', 'bonds']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-055",
+    "source": "@trader_21",
+    "source_type": "social",
+    "timestamp": "2026-09-23T18:26:00Z",
+    "text": "$XOM merger blocked by regulators, takeover collapse. ouch",
+    "tickers": [
+      "XOM"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.95,
+    "sentiment_label": "negative",
+    "event_category": "Merger/Acquisition",
+    "category_confidence": 1.0,
+    "impact_score": 5.6,
+    "drivers": [
+      "base[Merger/Acquisition]=3.5",
+      "severity['collaps']=+0.8",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9",
+      "matched['merger', 'merge', 'takeover']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-039",
+    "source": "MarketDesk Demo",
+    "source_type": "news",
+    "timestamp": "2026-09-23T18:30:00Z",
+    "text": "Walmart to acquire rival in deal expected to boost earnings and synergies",
+    "tickers": [
+      "WMT"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.682,
+    "sentiment_label": "positive",
+    "event_category": "Merger/Acquisition",
+    "category_confidence": 1.0,
+    "impact_score": 4.9,
+    "drivers": [
+      "base[Merger/Acquisition]=3.5",
+      "|sentiment|x2=+1.4",
+      "matched['acquire', 'deal']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-054",
+    "source": "@trader_20",
+    "source_type": "social",
+    "timestamp": "2026-09-23T19:57:00Z",
+    "text": "$JNJ new product is a huge hit, demand looks amazing",
+    "tickers": [
+      "JNJ"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.853,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 3.8,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.7",
+      "social-source x0.9",
+      "matched['new product']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-038",
+    "source": "Synthetic Wire",
+    "source_type": "news",
+    "timestamp": "2026-09-23T20:34:00Z",
+    "text": "Microsoft schedules annual shareholder meeting for next month",
+    "tickers": [
+      "MSFT"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 2.0,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+0.0"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-045",
+    "source": "MarketDesk Demo",
+    "source_type": "news",
+    "timestamp": "2026-09-24T08:04:00Z",
+    "text": "Exxon Mobil credit rating downgraded as debt concerns mount",
+    "tickers": [
+      "XOM"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.87,
+    "sentiment_label": "negative",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 6.2,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "|sentiment|x2=+1.7",
+      "matched['downgrade', 'credit rating', 'debt', 'credit']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-044",
+    "source": "Global Ledger (synthetic)",
+    "source_type": "news",
+    "timestamp": "2026-09-24T08:37:00Z",
+    "text": "Alphabet introduces next-generation platform to enthusiastic reviews",
+    "tickers": [
+      "GOOGL"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.462,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 3.4,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+0.9",
+      "matched['introduces', 'next-generation']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-046",
+    "source": "Synthetic Wire",
+    "source_type": "news",
+    "timestamp": "2026-09-24T09:03:00Z",
+    "text": "Disney to acquire rival studio in deal expected to boost earnings and synergies",
+    "tickers": [
+      "DIS"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.682,
+    "sentiment_label": "positive",
+    "event_category": "Merger/Acquisition",
+    "category_confidence": 1.0,
+    "impact_score": 4.9,
+    "drivers": [
+      "base[Merger/Acquisition]=3.5",
+      "|sentiment|x2=+1.4",
+      "matched['acquire', 'deal']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-043",
+    "source": "Demo Business Daily",
+    "source_type": "news",
+    "timestamp": "2026-09-24T09:15:00Z",
+    "text": "Sanctions and export curbs threaten Amazon supply chain, shares slide",
+    "tickers": [
+      "AMZN"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.95,
+    "sentiment_label": "negative",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 6.9,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "|sentiment|x2=+1.9",
+      "company-specific=-0.5",
+      "matched['sanction', 'export curbs']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-065",
+    "source": "@trader_3",
+    "source_type": "social",
+    "timestamp": "2026-09-24T10:01:00Z",
+    "text": "heard Walmart is buying a rival, big merger news, bullish $WMT",
+    "tickers": [
+      "WMT"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.583,
+    "sentiment_label": "positive",
+    "event_category": "Merger/Acquisition",
+    "category_confidence": 1.0,
+    "impact_score": 4.2,
+    "drivers": [
+      "base[Merger/Acquisition]=3.5",
+      "|sentiment|x2=+1.2",
+      "social-source x0.9",
+      "matched['merger', 'merge', 'buying a rival', 'buy']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-068",
+    "source": "@trader_26",
+    "source_type": "social",
+    "timestamp": "2026-09-24T10:31:00Z",
+    "text": "$DIS disney to acquire rival studio in deal expected to boost earnings and synergies",
+    "tickers": [
+      "DIS"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.682,
+    "sentiment_label": "positive",
+    "event_category": "Merger/Acquisition",
+    "category_confidence": 1.0,
+    "impact_score": 4.4,
+    "drivers": [
+      "base[Merger/Acquisition]=3.5",
+      "|sentiment|x2=+1.4",
+      "social-source x0.9",
+      "matched['acquire', 'deal']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-063",
+    "source": "@trader_22",
+    "source_type": "social",
+    "timestamp": "2026-09-24T12:32:00Z",
+    "text": "$JNJ new product is a huge hit, demand looks amazing",
+    "tickers": [
+      "JNJ"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.853,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 3.8,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.7",
+      "social-source x0.9",
+      "matched['new product']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-061",
+    "source": "@trader_14",
+    "source_type": "social",
+    "timestamp": "2026-09-24T15:43:00Z",
+    "text": "$BAC earnings beat and guidance raised, great quarter",
+    "tickers": [
+      "BAC"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.931,
+    "sentiment_label": "positive",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.5,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-067",
+    "source": "@trader_25",
+    "source_type": "social",
+    "timestamp": "2026-09-24T17:12:00Z",
+    "text": "rate cut signal, inflation cooling, stocks surge today",
+    "tickers": [],
+    "scope": "market",
+    "sentiment_score": 0.964,
+    "sentiment_label": "positive",
+    "event_category": "Macroeconomic",
+    "category_confidence": 1.0,
+    "impact_score": 7.1,
+    "drivers": [
+      "base[Macroeconomic]=5.0",
+      "|sentiment|x2=+1.9",
+      "market-wide=+1.0",
+      "social-source x0.9",
+      "matched['rate cut', 'inflation']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-066",
+    "source": "@trader_5",
+    "source_type": "social",
+    "timestamp": "2026-09-24T17:54:00Z",
+    "text": "$GOOGL earnings beat and guidance raised, great quarter",
+    "tickers": [
+      "GOOGL"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.931,
+    "sentiment_label": "positive",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.5,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-064",
+    "source": "@trader_15",
+    "source_type": "social",
+    "timestamp": "2026-09-24T18:19:00Z",
+    "text": "heard Microsoft is buying a rival, big merger news, bullish $MSFT",
+    "tickers": [
+      "MSFT"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.583,
+    "sentiment_label": "positive",
+    "event_category": "Merger/Acquisition",
+    "category_confidence": 1.0,
+    "impact_score": 4.2,
+    "drivers": [
+      "base[Merger/Acquisition]=3.5",
+      "|sentiment|x2=+1.2",
+      "social-source x0.9",
+      "matched['merger', 'merge', 'buying a rival', 'buy']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-042",
+    "source": "Demo Business Daily",
+    "source_type": "news",
+    "timestamp": "2026-09-24T18:41:00Z",
+    "text": "Alphabet secures credit rating upgrade after strong debt reduction",
+    "tickers": [
+      "GOOGL"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.95,
+    "sentiment_label": "positive",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 6.4,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "|sentiment|x2=+1.9",
+      "matched['credit rating', 'debt', 'credit', 'rating upgrade', 'upgrade']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-062",
+    "source": "@trader_11",
+    "source_type": "social",
+    "timestamp": "2026-09-24T20:57:00Z",
+    "text": "$XOM earnings beat and guidance raised, great quarter",
+    "tickers": [
+      "XOM"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.931,
+    "sentiment_label": "positive",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.5,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-050",
+    "source": "MarketDesk Demo",
+    "source_type": "news",
+    "timestamp": "2026-09-25T09:06:00Z",
+    "text": "Bank of America warns of heavy losses as costs surge",
+    "tickers": [
+      "BAC"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.964,
+    "sentiment_label": "negative",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.9,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-051",
+    "source": "Synthetic Wire",
+    "source_type": "news",
+    "timestamp": "2026-09-25T09:22:00Z",
+    "text": "Ceasefire agreement reached, peace talks ease tensions and markets rally strongly",
+    "tickers": [],
+    "scope": "market",
+    "sentiment_score": 0.987,
+    "sentiment_label": "positive",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 9.0,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "|sentiment|x2=+2.0",
+      "market-wide=+1.0",
+      "broad-language=+0.5",
+      "matched['ceasefire', 'peace talks', 'tension']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-072",
+    "source": "@trader_9",
+    "source_type": "social",
+    "timestamp": "2026-09-25T09:29:00Z",
+    "text": "heard Exxon Mobil is buying a rival, big merger news, bullish $XOM",
+    "tickers": [
+      "XOM"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.583,
+    "sentiment_label": "positive",
+    "event_category": "Merger/Acquisition",
+    "category_confidence": 1.0,
+    "impact_score": 4.2,
+    "drivers": [
+      "base[Merger/Acquisition]=3.5",
+      "|sentiment|x2=+1.2",
+      "social-source x0.9",
+      "matched['merger', 'merge', 'buying a rival', 'buy']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-075",
+    "source": "@trader_33",
+    "source_type": "social",
+    "timestamp": "2026-09-25T10:46:00Z",
+    "text": "breaking: ceasefire agreement reached, peace talks ease tensions and markets rally strongly",
+    "tickers": [],
+    "scope": "market",
+    "sentiment_score": 0.987,
+    "sentiment_label": "positive",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 8.1,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "|sentiment|x2=+2.0",
+      "market-wide=+1.0",
+      "broad-language=+0.5",
+      "social-source x0.9",
+      "matched['ceasefire', 'peace talks', 'tension']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-049",
+    "source": "Demo Business Daily",
+    "source_type": "news",
+    "timestamp": "2026-09-25T11:50:00Z",
+    "text": "Alphabet to acquire rival in deal expected to boost earnings and synergies",
+    "tickers": [
+      "GOOGL"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.682,
+    "sentiment_label": "positive",
+    "event_category": "Merger/Acquisition",
+    "category_confidence": 1.0,
+    "impact_score": 4.9,
+    "drivers": [
+      "base[Merger/Acquisition]=3.5",
+      "|sentiment|x2=+1.4",
+      "matched['acquire', 'deal']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-047",
+    "source": "Synthetic Wire",
+    "source_type": "news",
+    "timestamp": "2026-09-25T13:04:00Z",
+    "text": "Alphabet introduces next-generation platform to enthusiastic reviews",
+    "tickers": [
+      "GOOGL"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.462,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 3.4,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+0.9",
+      "matched['introduces', 'next-generation']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-071",
+    "source": "@trader_4",
+    "source_type": "social",
+    "timestamp": "2026-09-25T16:29:00Z",
+    "text": "watching $NVDA today, nothing much happening",
+    "tickers": [
+      "NVDA"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 1.8,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+0.0",
+      "social-source x0.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-048",
+    "source": "Global Ledger (synthetic)",
+    "source_type": "news",
+    "timestamp": "2026-09-25T18:31:00Z",
+    "text": "Exxon Mobil credit rating downgraded as debt concerns mount",
+    "tickers": [
+      "XOM"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.87,
+    "sentiment_label": "negative",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 6.2,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "|sentiment|x2=+1.7",
+      "matched['downgrade', 'credit rating', 'debt', 'credit']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-073",
+    "source": "@trader_36",
+    "source_type": "social",
+    "timestamp": "2026-09-25T18:33:00Z",
+    "text": "$WMT earnings beat and guidance raised, great quarter",
+    "tickers": [
+      "WMT"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.931,
+    "sentiment_label": "positive",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.5,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-069",
+    "source": "@trader_1",
+    "source_type": "social",
+    "timestamp": "2026-09-25T18:44:00Z",
+    "text": "$GOOGL launch delayed again, defects found. not good",
+    "tickers": [
+      "GOOGL"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.931,
+    "sentiment_label": "negative",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 3.9,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9",
+      "matched['launch']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-070",
+    "source": "@trader_15",
+    "source_type": "social",
+    "timestamp": "2026-09-25T20:27:00Z",
+    "text": "$DIS new product is a huge hit, demand looks amazing",
+    "tickers": [
+      "DIS"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.853,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 3.8,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.7",
+      "social-source x0.9",
+      "matched['new product']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-074",
+    "source": "@trader_29",
+    "source_type": "social",
+    "timestamp": "2026-09-25T20:57:00Z",
+    "text": "$CVX credit downgrade, debt worries growing, selling",
+    "tickers": [
+      "CVX"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.95,
+    "sentiment_label": "negative",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 5.8,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9",
+      "matched['downgrade', 'debt', 'credit']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-057",
+    "source": "Synthetic Wire",
+    "source_type": "news",
+    "timestamp": "2026-09-28T09:55:00Z",
+    "text": "Pfizer reports record profit and announces share buyback after strong trial results",
+    "tickers": [
+      "PFE"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.95,
+    "sentiment_label": "positive",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.9,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.9",
+      "matched['buy']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-083",
+    "source": "@trader_27",
+    "source_type": "social",
+    "timestamp": "2026-09-28T10:04:00Z",
+    "text": "$PFE pfizer reports record profit and announces share buyback after strong trial results",
+    "tickers": [
+      "PFE"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.95,
+    "sentiment_label": "positive",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.5,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9",
+      "matched['buy']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-054",
+    "source": "MarketDesk Demo",
+    "source_type": "news",
+    "timestamp": "2026-09-28T11:12:00Z",
+    "text": "Amazon delays product launch after serious defects found in testing",
+    "tickers": [
+      "AMZN"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.823,
+    "sentiment_label": "negative",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 4.1,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.6",
+      "matched['launch']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-079",
+    "source": "@trader_29",
+    "source_type": "social",
+    "timestamp": "2026-09-28T11:17:00Z",
+    "text": "sanctions hitting $BAC supply chain, shares sliding",
+    "tickers": [
+      "BAC"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.762,
+    "sentiment_label": "negative",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 5.9,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "|sentiment|x2=+1.5",
+      "company-specific=-0.5",
+      "social-source x0.9",
+      "matched['sanction']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-080",
+    "source": "@trader_18",
+    "source_type": "social",
+    "timestamp": "2026-09-28T12:15:00Z",
+    "text": "watching $MSFT today, nothing much happening",
+    "tickers": [
+      "MSFT"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.0,
+    "sentiment_label": "neutral",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 1.8,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+0.0",
+      "social-source x0.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-078",
+    "source": "@trader_34",
+    "source_type": "social",
+    "timestamp": "2026-09-28T12:49:00Z",
+    "text": "sanctions hitting $KO supply chain, shares sliding",
+    "tickers": [
+      "KO"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.762,
+    "sentiment_label": "negative",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 5.9,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "|sentiment|x2=+1.5",
+      "company-specific=-0.5",
+      "social-source x0.9",
+      "matched['sanction']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-055",
+    "source": "MarketDesk Demo",
+    "source_type": "news",
+    "timestamp": "2026-09-28T14:11:00Z",
+    "text": "Sanctions and export curbs threaten Exxon Mobil supply chain, shares slide",
+    "tickers": [
+      "XOM"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.95,
+    "sentiment_label": "negative",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 6.9,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "|sentiment|x2=+1.9",
+      "company-specific=-0.5",
+      "matched['sanction', 'export curbs']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-053",
+    "source": "Synthetic Wire",
+    "source_type": "news",
+    "timestamp": "2026-09-28T14:46:00Z",
+    "text": "Johnson & Johnson delays product launch after serious defects found in testing",
+    "tickers": [
+      "JNJ"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.823,
+    "sentiment_label": "negative",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 4.1,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.6",
+      "matched['launch']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-077",
+    "source": "@trader_16",
+    "source_type": "social",
+    "timestamp": "2026-09-28T15:16:00Z",
+    "text": "$PFE earnings beat and guidance raised, great quarter",
+    "tickers": [
+      "PFE"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.931,
+    "sentiment_label": "positive",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.5,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-056",
+    "source": "Synthetic Wire",
+    "source_type": "news",
+    "timestamp": "2026-09-28T15:51:00Z",
+    "text": "Central bank shocks markets with surprise rate hike as inflation surges",
+    "tickers": [],
+    "scope": "market",
+    "sentiment_score": -0.931,
+    "sentiment_label": "negative",
+    "event_category": "Macroeconomic",
+    "category_confidence": 1.0,
+    "impact_score": 9.2,
+    "drivers": [
+      "base[Macroeconomic]=5.0",
+      "severity['surprise']=+0.8",
+      "|sentiment|x2=+1.9",
+      "market-wide=+1.0",
+      "broad-language=+0.5",
+      "matched['central bank', 'rate hike', 'inflation']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-076",
+    "source": "@trader_11",
+    "source_type": "social",
+    "timestamp": "2026-09-28T15:57:00Z",
+    "text": "$JPM earnings miss, weak demand, guidance cut. terrible",
+    "tickers": [
+      "JPM"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.977,
+    "sentiment_label": "negative",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.6,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+2.0",
+      "social-source x0.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-081",
+    "source": "@trader_9",
+    "source_type": "social",
+    "timestamp": "2026-09-28T16:05:00Z",
+    "text": "$AMZN credit downgrade, debt worries growing, selling",
+    "tickers": [
+      "AMZN"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.95,
+    "sentiment_label": "negative",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 5.8,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9",
+      "matched['downgrade', 'debt', 'credit']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-052",
+    "source": "Demo Business Daily",
+    "source_type": "news",
+    "timestamp": "2026-09-28T19:03:00Z",
+    "text": "JPMorgan Chase warns of heavy losses as costs surge",
+    "tickers": [
+      "JPM"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.964,
+    "sentiment_label": "negative",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.9,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-082",
+    "source": "@trader_14",
+    "source_type": "social",
+    "timestamp": "2026-09-28T19:09:00Z",
+    "text": "recession is here, unemployment jumping, bearish on everything",
+    "tickers": [],
+    "scope": "market",
+    "sentiment_score": -0.974,
+    "sentiment_label": "negative",
+    "event_category": "Macroeconomic",
+    "category_confidence": 1.0,
+    "impact_score": 7.9,
+    "drivers": [
+      "base[Macroeconomic]=5.0",
+      "severity['recession']=+0.8",
+      "|sentiment|x2=+1.9",
+      "market-wide=+1.0",
+      "social-source x0.9",
+      "matched['recession', 'unemployment']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-090",
+    "source": "@trader_22",
+    "source_type": "social",
+    "timestamp": "2026-09-29T08:24:00Z",
+    "text": "recession is here, unemployment jumping, bearish on everything",
+    "tickers": [],
+    "scope": "market",
+    "sentiment_score": -0.974,
+    "sentiment_label": "negative",
+    "event_category": "Macroeconomic",
+    "category_confidence": 1.0,
+    "impact_score": 7.9,
+    "drivers": [
+      "base[Macroeconomic]=5.0",
+      "severity['recession']=+0.8",
+      "|sentiment|x2=+1.9",
+      "market-wide=+1.0",
+      "social-source x0.9",
+      "matched['recession', 'unemployment']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-061",
+    "source": "Synthetic Wire",
+    "source_type": "news",
+    "timestamp": "2026-09-29T10:24:00Z",
+    "text": "Alphabet reports record profit and announces share buyback",
+    "tickers": [
+      "GOOGL"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.87,
+    "sentiment_label": "positive",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.7,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.7",
+      "matched['buy']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-089",
+    "source": "@trader_15",
+    "source_type": "social",
+    "timestamp": "2026-09-29T11:31:00Z",
+    "text": "$WMT losses mounting, bearish, dumping my shares",
+    "tickers": [
+      "WMT"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.964,
+    "sentiment_label": "negative",
+    "event_category": "Other",
+    "category_confidence": 0.5,
+    "impact_score": 3.5,
+    "drivers": [
+      "base[Other]=2.0",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-087",
+    "source": "@trader_25",
+    "source_type": "social",
+    "timestamp": "2026-09-29T13:19:00Z",
+    "text": "$BAC looking strong after the launch, bullish into next week",
+    "tickers": [
+      "BAC"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.823,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 3.7,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.6",
+      "social-source x0.9",
+      "matched['launch']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-085",
+    "source": "@trader_38",
+    "source_type": "social",
+    "timestamp": "2026-09-29T14:24:00Z",
+    "text": "heard Apple is buying a rival, big merger news, bullish $AAPL",
+    "tickers": [
+      "AAPL"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.583,
+    "sentiment_label": "positive",
+    "event_category": "Merger/Acquisition",
+    "category_confidence": 1.0,
+    "impact_score": 4.2,
+    "drivers": [
+      "base[Merger/Acquisition]=3.5",
+      "|sentiment|x2=+1.2",
+      "social-source x0.9",
+      "matched['merger', 'merge', 'buying a rival', 'buy']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-060",
+    "source": "Demo Business Daily",
+    "source_type": "news",
+    "timestamp": "2026-09-29T15:30:00Z",
+    "text": "Alphabet announces merger with industry peer, shares jump on growth outlook",
+    "tickers": [
+      "GOOGL"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.762,
+    "sentiment_label": "positive",
+    "event_category": "Merger/Acquisition",
+    "category_confidence": 1.0,
+    "impact_score": 5.0,
+    "drivers": [
+      "base[Merger/Acquisition]=3.5",
+      "|sentiment|x2=+1.5",
+      "matched['merger', 'merge']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-084",
+    "source": "@trader_27",
+    "source_type": "social",
+    "timestamp": "2026-09-29T16:29:00Z",
+    "text": "$JPM credit downgrade, debt worries growing, selling",
+    "tickers": [
+      "JPM"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.95,
+    "sentiment_label": "negative",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 5.8,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "|sentiment|x2=+1.9",
+      "social-source x0.9",
+      "matched['downgrade', 'debt', 'credit']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-088",
+    "source": "@trader_35",
+    "source_type": "social",
+    "timestamp": "2026-09-29T16:47:00Z",
+    "text": "$KO default fears rising on its bonds, avoid",
+    "tickers": [
+      "KO"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.823,
+    "sentiment_label": "negative",
+    "event_category": "Credit Event",
+    "category_confidence": 1.0,
+    "impact_score": 6.3,
+    "drivers": [
+      "base[Credit Event]=4.5",
+      "severity['default']=+0.8",
+      "|sentiment|x2=+1.6",
+      "social-source x0.9",
+      "matched['default', 'bonds']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-058",
+    "source": "Synthetic Wire",
+    "source_type": "news",
+    "timestamp": "2026-09-29T18:34:00Z",
+    "text": "Coca-Cola delays product launch after serious defects found in testing",
+    "tickers": [
+      "KO"
+    ],
+    "scope": "company",
+    "sentiment_score": -0.823,
+    "sentiment_label": "negative",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 4.1,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.6",
+      "matched['launch']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "tw-086",
+    "source": "@trader_25",
+    "source_type": "social",
+    "timestamp": "2026-09-29T20:36:00Z",
+    "text": "$PFE looking strong after the launch, bullish into next week",
+    "tickers": [
+      "PFE"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.823,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 3.7,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.6",
+      "social-source x0.9",
+      "matched['launch']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-062",
+    "source": "Global Ledger (synthetic)",
+    "source_type": "news",
+    "timestamp": "2026-09-29T20:50:00Z",
+    "text": "Ceasefire agreement reached, peace talks ease tensions and markets rally",
+    "tickers": [],
+    "scope": "market",
+    "sentiment_score": 0.964,
+    "sentiment_label": "positive",
+    "event_category": "Geopolitical",
+    "category_confidence": 1.0,
+    "impact_score": 8.9,
+    "drivers": [
+      "base[Geopolitical]=5.5",
+      "|sentiment|x2=+1.9",
+      "market-wide=+1.0",
+      "broad-language=+0.5",
+      "matched['ceasefire', 'peace talks', 'tension']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  },
+  {
+    "signal_id": "news-059",
+    "source": "Synthetic Wire",
+    "source_type": "news",
+    "timestamp": "2026-09-29T20:54:00Z",
+    "text": "Coca-Cola unveils new product line, analysts applaud strong early demand",
+    "tickers": [
+      "KO"
+    ],
+    "scope": "company",
+    "sentiment_score": 0.892,
+    "sentiment_label": "positive",
+    "event_category": "Product Launch",
+    "category_confidence": 1.0,
+    "impact_score": 4.3,
+    "drivers": [
+      "base[Product Launch]=2.5",
+      "|sentiment|x2=+1.8",
+      "matched['unveil', 'new product']"
+    ],
+    "model": "sentiment=lexicon; events=rules"
+  }
+]

@@ -1,0 +1,91 @@
+tweet_id,created_at,user,text,gold_sentiment,gold_category
+tw-003,2026-09-14T08:37:00Z,trader_35,"heard Meta Platforms is buying a rival, big merger news, bullish $META",positive,Merger/Acquisition
+tw-004,2026-09-14T13:03:00Z,trader_4,"watching $AAPL today, nothing much happening",neutral,Other
+tw-001,2026-09-14T14:44:00Z,trader_36,"$BAC merger blocked by regulators, takeover collapse. ouch",negative,Merger/Acquisition
+tw-002,2026-09-14T15:09:00Z,trader_13,"watching $JNJ today, nothing much happening",neutral,Other
+tw-006,2026-09-14T16:05:00Z,trader_12,"$NVDA looking strong after the launch, bullish into next week",positive,Product Launch
+tw-005,2026-09-14T16:58:00Z,trader_34,"$CVX earnings beat and guidance raised, great quarter",positive,Other
+tw-007,2026-09-14T18:55:00Z,trader_16,"war escalating, missiles hitting shipping lanes, markets crashing #markets",negative,Geopolitical
+tw-015,2026-09-15T10:34:00Z,trader_14,$NVDA nvidia unveils next-generation ai platform to enthusiastic reviews and record preorders,positive,Product Launch
+tw-011,2026-09-15T11:42:00Z,trader_21,"$DIS merger blocked by regulators, takeover collapse. ouch",negative,Merger/Acquisition
+tw-012,2026-09-15T14:08:00Z,trader_20,"$GOOGL merger blocked by regulators, takeover collapse. ouch",negative,Merger/Acquisition
+tw-009,2026-09-15T17:05:00Z,trader_27,"$CVX looking strong after the launch, bullish into next week",positive,Product Launch
+tw-014,2026-09-15T17:06:00Z,trader_5,"ceasefire reached! peace talks, markets rally, bullish",positive,Geopolitical
+tw-008,2026-09-15T17:15:00Z,trader_38,"$JPM new product is a huge hit, demand looks amazing",positive,Product Launch
+tw-010,2026-09-15T17:33:00Z,trader_21,"$JNJ losses mounting, bearish, dumping my shares",negative,Other
+tw-013,2026-09-15T20:59:00Z,trader_5,"$BAC credit downgrade, debt worries growing, selling",negative,Credit Event
+tw-021,2026-09-16T09:47:00Z,trader_36,"$META new product is a huge hit, demand looks amazing",positive,Product Launch
+tw-020,2026-09-16T09:56:00Z,trader_9,"sanctions hitting $META supply chain, shares sliding",negative,Geopolitical
+tw-016,2026-09-16T10:59:00Z,trader_23,"$XOM merger blocked by regulators, takeover collapse. ouch",negative,Merger/Acquisition
+tw-017,2026-09-16T11:23:00Z,trader_19,"$DIS new product is a huge hit, demand looks amazing",positive,Product Launch
+tw-019,2026-09-16T16:00:00Z,trader_36,"sanctions hitting $CVX supply chain, shares sliding",negative,Geopolitical
+tw-018,2026-09-16T16:45:00Z,trader_20,"$NVDA earnings beat and guidance raised, great quarter",positive,Other
+tw-022,2026-09-16T17:13:00Z,trader_22,"surprise rate hike!! inflation surging, recession fears, stocks tumble",negative,Macroeconomic
+tw-029,2026-09-17T10:34:00Z,trader_3,"rate cut signal, inflation cooling, stocks surge today",positive,Macroeconomic
+tw-031,2026-09-17T10:37:00Z,trader_36,$XOM exxon mobil faces supply disruption as war threatens oil routes,negative,Geopolitical
+tw-027,2026-09-17T10:47:00Z,trader_29,"$JNJ merger blocked by regulators, takeover collapse. ouch",negative,Merger/Acquisition
+tw-030,2026-09-17T10:53:00Z,trader_24,breaking: armed conflict escalates as missile strikes hit key shipping route,negative,Geopolitical
+tw-024,2026-09-17T12:57:00Z,trader_4,"$XOM earnings beat and guidance raised, great quarter",positive,Other
+tw-026,2026-09-17T13:49:00Z,trader_9,"$AAPL looking strong after the launch, bullish into next week",positive,Product Launch
+tw-028,2026-09-17T14:35:00Z,trader_1,"watching $XOM today, nothing much happening",neutral,Other
+tw-025,2026-09-17T14:53:00Z,trader_18,"sanctions hitting $MSFT supply chain, shares sliding",negative,Geopolitical
+tw-023,2026-09-17T18:54:00Z,trader_17,"sanctions hitting $GOOGL supply chain, shares sliding",negative,Geopolitical
+tw-037,2026-09-18T08:11:00Z,trader_22,"$DIS default fears rising on its bonds, avoid",negative,Credit Event
+tw-032,2026-09-18T10:02:00Z,trader_20,"$NVDA default fears rising on its bonds, avoid",negative,Credit Event
+tw-036,2026-09-18T10:51:00Z,trader_12,"heard Disney is buying a rival, big merger news, bullish $DIS",positive,Merger/Acquisition
+tw-033,2026-09-18T13:13:00Z,trader_16,"$AMZN looking strong after the launch, bullish into next week",positive,Product Launch
+tw-034,2026-09-18T13:49:00Z,trader_36,"$JNJ new product is a huge hit, demand looks amazing",positive,Product Launch
+tw-035,2026-09-18T17:47:00Z,trader_10,"$DIS default fears rising on its bonds, avoid",negative,Credit Event
+tw-043,2026-09-21T09:49:00Z,trader_18,"$AMZN merger blocked by regulators, takeover collapse. ouch",negative,Merger/Acquisition
+tw-045,2026-09-21T10:21:00Z,trader_2,$JPM jpmorgan chase credit rating downgraded as debt concerns mount,negative,Credit Event
+tw-041,2026-09-21T13:19:00Z,trader_15,"$KO earnings beat and guidance raised, great quarter",positive,Other
+tw-044,2026-09-21T14:43:00Z,trader_35,"ceasefire reached! peace talks, markets rally, bullish",positive,Geopolitical
+tw-040,2026-09-21T15:14:00Z,trader_13,"$JPM looking strong after the launch, bullish into next week",positive,Product Launch
+tw-042,2026-09-21T18:12:00Z,trader_26,"$GOOGL looking strong after the launch, bullish into next week",positive,Product Launch
+tw-038,2026-09-21T19:51:00Z,trader_16,"sanctions hitting $JPM supply chain, shares sliding",negative,Geopolitical
+tw-039,2026-09-21T20:44:00Z,trader_7,"$META launch delayed again, defects found. not good",negative,Product Launch
+tw-046,2026-09-22T10:37:00Z,trader_17,"$MSFT merger blocked by regulators, takeover collapse. ouch",negative,Merger/Acquisition
+tw-053,2026-09-22T10:39:00Z,trader_21,breaking: central bank shocks markets with surprise rate hike as inflation surges and recession fears grow,negative,Macroeconomic
+tw-050,2026-09-22T14:00:00Z,trader_34,"watching $AAPL today, nothing much happening",neutral,Other
+tw-048,2026-09-22T14:38:00Z,trader_33,"$PFE credit downgrade, debt worries growing, selling",negative,Credit Event
+tw-049,2026-09-22T17:12:00Z,trader_17,"$MSFT default fears rising on its bonds, avoid",negative,Credit Event
+tw-047,2026-09-22T17:27:00Z,trader_23,"$AAPL new product is a huge hit, demand looks amazing",positive,Product Launch
+tw-051,2026-09-22T18:46:00Z,trader_13,"$DIS earnings miss, weak demand, guidance cut. terrible",negative,Other
+tw-052,2026-09-22T18:58:00Z,trader_22,"war escalating, missiles hitting shipping lanes, markets crashing #markets",negative,Geopolitical
+tw-059,2026-09-23T12:18:00Z,trader_14,"$KO looking strong after the launch, bullish into next week",positive,Product Launch
+tw-058,2026-09-23T12:25:00Z,trader_36,"$CVX losses mounting, bearish, dumping my shares",negative,Other
+tw-056,2026-09-23T12:35:00Z,trader_9,"watching $JPM today, nothing much happening",neutral,Other
+tw-060,2026-09-23T17:41:00Z,trader_21,"ceasefire reached! peace talks, markets rally, bullish",positive,Geopolitical
+tw-057,2026-09-23T18:24:00Z,trader_12,"$GOOGL default fears rising on its bonds, avoid",negative,Credit Event
+tw-055,2026-09-23T18:26:00Z,trader_21,"$XOM merger blocked by regulators, takeover collapse. ouch",negative,Merger/Acquisition
+tw-054,2026-09-23T19:57:00Z,trader_20,"$JNJ new product is a huge hit, demand looks amazing",positive,Product Launch
+tw-065,2026-09-24T10:01:00Z,trader_3,"heard Walmart is buying a rival, big merger news, bullish $WMT",positive,Merger/Acquisition
+tw-068,2026-09-24T10:31:00Z,trader_26,$DIS disney to acquire rival studio in deal expected to boost earnings and synergies,positive,Merger/Acquisition
+tw-063,2026-09-24T12:32:00Z,trader_22,"$JNJ new product is a huge hit, demand looks amazing",positive,Product Launch
+tw-061,2026-09-24T15:43:00Z,trader_14,"$BAC earnings beat and guidance raised, great quarter",positive,Other
+tw-067,2026-09-24T17:12:00Z,trader_25,"rate cut signal, inflation cooling, stocks surge today",positive,Macroeconomic
+tw-066,2026-09-24T17:54:00Z,trader_5,"$GOOGL earnings beat and guidance raised, great quarter",positive,Other
+tw-064,2026-09-24T18:19:00Z,trader_15,"heard Microsoft is buying a rival, big merger news, bullish $MSFT",positive,Merger/Acquisition
+tw-062,2026-09-24T20:57:00Z,trader_11,"$XOM earnings beat and guidance raised, great quarter",positive,Other
+tw-072,2026-09-25T09:29:00Z,trader_9,"heard Exxon Mobil is buying a rival, big merger news, bullish $XOM",positive,Merger/Acquisition
+tw-075,2026-09-25T10:46:00Z,trader_33,"breaking: ceasefire agreement reached, peace talks ease tensions and markets rally strongly",positive,Geopolitical
+tw-071,2026-09-25T16:29:00Z,trader_4,"watching $NVDA today, nothing much happening",neutral,Other
+tw-073,2026-09-25T18:33:00Z,trader_36,"$WMT earnings beat and guidance raised, great quarter",positive,Other
+tw-069,2026-09-25T18:44:00Z,trader_1,"$GOOGL launch delayed again, defects found. not good",negative,Product Launch
+tw-070,2026-09-25T20:27:00Z,trader_15,"$DIS new product is a huge hit, demand looks amazing",positive,Product Launch
+tw-074,2026-09-25T20:57:00Z,trader_29,"$CVX credit downgrade, debt worries growing, selling",negative,Credit Event
+tw-083,2026-09-28T10:04:00Z,trader_27,$PFE pfizer reports record profit and announces share buyback after strong trial results,positive,Other
+tw-079,2026-09-28T11:17:00Z,trader_29,"sanctions hitting $BAC supply chain, shares sliding",negative,Geopolitical
+tw-080,2026-09-28T12:15:00Z,trader_18,"watching $MSFT today, nothing much happening",neutral,Other
+tw-078,2026-09-28T12:49:00Z,trader_34,"sanctions hitting $KO supply chain, shares sliding",negative,Geopolitical
+tw-077,2026-09-28T15:16:00Z,trader_16,"$PFE earnings beat and guidance raised, great quarter",positive,Other
+tw-076,2026-09-28T15:57:00Z,trader_11,"$JPM earnings miss, weak demand, guidance cut. terrible",negative,Other
+tw-081,2026-09-28T16:05:00Z,trader_9,"$AMZN credit downgrade, debt worries growing, selling",negative,Credit Event
+tw-082,2026-09-28T19:09:00Z,trader_14,"recession is here, unemployment jumping, bearish on everything",negative,Macroeconomic
+tw-090,2026-09-29T08:24:00Z,trader_22,"recession is here, unemployment jumping, bearish on everything",negative,Macroeconomic
+tw-089,2026-09-29T11:31:00Z,trader_15,"$WMT losses mounting, bearish, dumping my shares",negative,Other
+tw-087,2026-09-29T13:19:00Z,trader_25,"$BAC looking strong after the launch, bullish into next week",positive,Product Launch
+tw-085,2026-09-29T14:24:00Z,trader_38,"heard Apple is buying a rival, big merger news, bullish $AAPL",positive,Merger/Acquisition
+tw-084,2026-09-29T16:29:00Z,trader_27,"$JPM credit downgrade, debt worries growing, selling",negative,Credit Event
+tw-088,2026-09-29T16:47:00Z,trader_35,"$KO default fears rising on its bonds, avoid",negative,Credit Event
+tw-086,2026-09-29T20:36:00Z,trader_25,"$PFE looking strong after the launch, bullish into next week",positive,Product Launch

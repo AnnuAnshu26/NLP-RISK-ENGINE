@@ -1,0 +1,272 @@
+[
+  {
+    "id": "held-01",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Microsoft stock edges higher after cloud revenue tops forecasts",
+    "gold_sentiment": "positive",
+    "gold_category": "Other"
+  },
+  {
+    "id": "held-02",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Pfizer shares sink as late-stage drug trial fails to meet main goal",
+    "gold_sentiment": "negative",
+    "gold_category": "Other"
+  },
+  {
+    "id": "held-03",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Amazon in talks to buy robotics startup for $2 billion",
+    "gold_sentiment": "positive",
+    "gold_category": "Merger/Acquisition"
+  },
+  {
+    "id": "held-04",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Regulators sue to stop Disney's proposed purchase of streaming rival",
+    "gold_sentiment": "negative",
+    "gold_category": "Merger/Acquisition"
+  },
+  {
+    "id": "held-05",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Apple debuts redesigned laptop line; early reviews are mixed",
+    "gold_sentiment": "neutral",
+    "gold_category": "Product Launch"
+  },
+  {
+    "id": "held-06",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Alphabet rolls out new AI assistant to millions of users",
+    "gold_sentiment": "positive",
+    "gold_category": "Product Launch"
+  },
+  {
+    "id": "held-07",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Moody's cuts Bank of America outlook to negative on loan book worries",
+    "gold_sentiment": "negative",
+    "gold_category": "Credit Event"
+  },
+  {
+    "id": "held-08",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Chevron prices $3 billion bond sale at tight spreads on strong investor appetite",
+    "gold_sentiment": "positive",
+    "gold_category": "Credit Event"
+  },
+  {
+    "id": "held-09",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Oil jumps as tanker attacks raise fears of wider regional conflict",
+    "gold_sentiment": "negative",
+    "gold_category": "Geopolitical"
+  },
+  {
+    "id": "held-10",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Leaders agree to extend trade truce, easing tariff fears",
+    "gold_sentiment": "positive",
+    "gold_category": "Geopolitical"
+  },
+  {
+    "id": "held-11",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "US inflation slows more than expected, boosting hopes of Fed easing",
+    "gold_sentiment": "positive",
+    "gold_category": "Macroeconomic"
+  },
+  {
+    "id": "held-12",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Payrolls disappoint and manufacturing shrinks, stoking slowdown worries",
+    "gold_sentiment": "negative",
+    "gold_category": "Macroeconomic"
+  },
+  {
+    "id": "held-13",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Walmart to hold investor day in November",
+    "gold_sentiment": "neutral",
+    "gold_category": "Other"
+  },
+  {
+    "id": "held-14",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Coca-Cola posts steady quarter in line with analyst estimates",
+    "gold_sentiment": "neutral",
+    "gold_category": "Other"
+  },
+  {
+    "id": "held-15",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Meta faces record fine over data privacy breaches",
+    "gold_sentiment": "negative",
+    "gold_category": "Other"
+  },
+  {
+    "id": "held-16",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Johnson & Johnson completes acquisition of medical device maker",
+    "gold_sentiment": "positive",
+    "gold_category": "Merger/Acquisition"
+  },
+  {
+    "id": "held-17",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Exxon Mobil profits tumble as refining margins collapse",
+    "gold_sentiment": "negative",
+    "gold_category": "Other"
+  },
+  {
+    "id": "held-18",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Nvidia sales soar on insatiable AI chip demand",
+    "gold_sentiment": "positive",
+    "gold_category": "Other"
+  },
+  {
+    "id": "held-19",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "JPMorgan unveils new digital payments platform for corporate clients",
+    "gold_sentiment": "positive",
+    "gold_category": "Product Launch"
+  },
+  {
+    "id": "held-20",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Rising bond yields rattle equity markets worldwide",
+    "gold_sentiment": "negative",
+    "gold_category": "Macroeconomic"
+  },
+  {
+    "id": "held-21",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "$TSLA whatever, $AAPL earnings were fine i guess",
+    "gold_sentiment": "neutral",
+    "gold_category": "Other"
+  },
+  {
+    "id": "held-22",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "honestly not bullish on $BAC anymore, credit quality looks shaky",
+    "gold_sentiment": "negative",
+    "gold_category": "Credit Event"
+  },
+  {
+    "id": "held-23",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "lol $NVDA to the moon \ud83d\ude80\ud83d\ude80 new chips look insane",
+    "gold_sentiment": "positive",
+    "gold_category": "Product Launch"
+  },
+  {
+    "id": "held-24",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "sanctions relief announced, oil majors rally",
+    "gold_sentiment": "positive",
+    "gold_category": "Geopolitical"
+  },
+  {
+    "id": "held-25",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Chevron avoids bankruptcy scare as creditors agree to extend terms",
+    "gold_sentiment": "positive",
+    "gold_category": "Credit Event"
+  },
+  {
+    "id": "held-26",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Disney's new park attraction opens to long queues and rave reviews",
+    "gold_sentiment": "positive",
+    "gold_category": "Product Launch"
+  },
+  {
+    "id": "held-27",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Central bank holds rates steady, signals patience on policy",
+    "gold_sentiment": "neutral",
+    "gold_category": "Macroeconomic"
+  },
+  {
+    "id": "held-28",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Exxon denies it will be breaking up its refining division",
+    "gold_sentiment": "neutral",
+    "gold_category": "Other"
+  },
+  {
+    "id": "held-29",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Microsoft's takeover bid is rejected, talks end without a deal",
+    "gold_sentiment": "negative",
+    "gold_category": "Merger/Acquisition"
+  },
+  {
+    "id": "held-30",
+    "source": "news",
+    "outlet": "Held-out (hand-written)",
+    "timestamp": "2026-09-30T12:00:00Z",
+    "headline": "Pfizer recalls batch of medication over contamination concerns",
+    "gold_sentiment": "negative",
+    "gold_category": "Other"
+  }
+]

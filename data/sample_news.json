@@ -1,0 +1,560 @@
+[
+  {
+    "id": "news-003",
+    "source": "news",
+    "outlet": "Demo Business Daily",
+    "timestamp": "2026-09-14T08:01:00Z",
+    "headline": "Johnson & Johnson introduces next-generation platform to enthusiastic reviews",
+    "gold_sentiment": "positive",
+    "gold_category": "Product Launch"
+  },
+  {
+    "id": "news-005",
+    "source": "news",
+    "outlet": "Demo Business Daily",
+    "timestamp": "2026-09-14T11:28:00Z",
+    "headline": "Central bank shocks markets with surprise rate hike as inflation surges",
+    "gold_sentiment": "negative",
+    "gold_category": "Macroeconomic"
+  },
+  {
+    "id": "news-004",
+    "source": "news",
+    "outlet": "MarketDesk Demo",
+    "timestamp": "2026-09-14T16:38:00Z",
+    "headline": "Microsoft abandons takeover after regulators block the deal, stock slides",
+    "gold_sentiment": "negative",
+    "gold_category": "Merger/Acquisition"
+  },
+  {
+    "id": "news-002",
+    "source": "news",
+    "outlet": "MarketDesk Demo",
+    "timestamp": "2026-09-14T19:06:00Z",
+    "headline": "Alphabet credit rating downgraded as debt concerns mount",
+    "gold_sentiment": "negative",
+    "gold_category": "Credit Event"
+  },
+  {
+    "id": "news-001",
+    "source": "news",
+    "outlet": "Synthetic Wire",
+    "timestamp": "2026-09-14T19:17:00Z",
+    "headline": "Johnson & Johnson delays product launch after serious defects found in testing",
+    "gold_sentiment": "negative",
+    "gold_category": "Product Launch"
+  },
+  {
+    "id": "news-008",
+    "source": "news",
+    "outlet": "Synthetic Wire",
+    "timestamp": "2026-09-15T09:24:00Z",
+    "headline": "Alphabet beats earnings expectations and raises full-year guidance",
+    "gold_sentiment": "positive",
+    "gold_category": "Other"
+  },
+  {
+    "id": "news-010",
+    "source": "news",
+    "outlet": "Synthetic Wire",
+    "timestamp": "2026-09-15T09:46:00Z",
+    "headline": "Nvidia unveils next-generation AI platform to enthusiastic reviews and record preorders",
+    "gold_sentiment": "positive",
+    "gold_category": "Product Launch"
+  },
+  {
+    "id": "news-007",
+    "source": "news",
+    "outlet": "Global Ledger (synthetic)",
+    "timestamp": "2026-09-15T12:09:00Z",
+    "headline": "Nvidia warns of heavy losses as costs surge",
+    "gold_sentiment": "negative",
+    "gold_category": "Other"
+  },
+  {
+    "id": "news-009",
+    "source": "news",
+    "outlet": "Global Ledger (synthetic)",
+    "timestamp": "2026-09-15T17:16:00Z",
+    "headline": "Microsoft misses earnings and cuts guidance amid weak demand",
+    "gold_sentiment": "negative",
+    "gold_category": "Other"
+  },
+  {
+    "id": "news-006",
+    "source": "news",
+    "outlet": "Synthetic Wire",
+    "timestamp": "2026-09-15T20:51:00Z",
+    "headline": "Chevron faces default risk on maturing bonds, creditors alarmed",
+    "gold_sentiment": "negative",
+    "gold_category": "Credit Event"
+  },
+  {
+    "id": "news-011",
+    "source": "news",
+    "outlet": "Demo Business Daily",
+    "timestamp": "2026-09-16T09:35:00Z",
+    "headline": "Bank of America delays product launch after serious defects found in testing",
+    "gold_sentiment": "negative",
+    "gold_category": "Product Launch"
+  },
+  {
+    "id": "news-013",
+    "source": "news",
+    "outlet": "Global Ledger (synthetic)",
+    "timestamp": "2026-09-16T09:54:00Z",
+    "headline": "Apple credit rating downgraded as debt concerns mount",
+    "gold_sentiment": "negative",
+    "gold_category": "Credit Event"
+  },
+  {
+    "id": "news-014",
+    "source": "news",
+    "outlet": "Demo Business Daily",
+    "timestamp": "2026-09-16T12:29:00Z",
+    "headline": "Alphabet delays product launch after serious defects found in testing",
+    "gold_sentiment": "negative",
+    "gold_category": "Product Launch"
+  },
+  {
+    "id": "news-012",
+    "source": "news",
+    "outlet": "MarketDesk Demo",
+    "timestamp": "2026-09-16T19:04:00Z",
+    "headline": "Meta Platforms misses earnings and cuts guidance amid weak demand",
+    "gold_sentiment": "negative",
+    "gold_category": "Other"
+  },
+  {
+    "id": "news-020",
+    "source": "news",
+    "outlet": "Synthetic Wire",
+    "timestamp": "2026-09-17T09:04:00Z",
+    "headline": "Armed conflict escalates as missile strikes hit key shipping route; global markets plunge, systemic fears grow",
+    "gold_sentiment": "negative",
+    "gold_category": "Geopolitical"
+  },
+  {
+    "id": "news-021",
+    "source": "news",
+    "outlet": "Synthetic Wire",
+    "timestamp": "2026-09-17T09:13:00Z",
+    "headline": "Exxon Mobil faces supply disruption as war threatens oil routes, shares slide",
+    "gold_sentiment": "negative",
+    "gold_category": "Geopolitical"
+  },
+  {
+    "id": "news-015",
+    "source": "news",
+    "outlet": "Global Ledger (synthetic)",
+    "timestamp": "2026-09-17T13:13:00Z",
+    "headline": "Amazon announces merger with industry peer, shares jump on growth outlook",
+    "gold_sentiment": "positive",
+    "gold_category": "Merger/Acquisition"
+  },
+  {
+    "id": "news-019",
+    "source": "news",
+    "outlet": "Global Ledger (synthetic)",
+    "timestamp": "2026-09-17T14:17:00Z",
+    "headline": "Armed conflict escalates as missile strikes hit key shipping route; global markets plunge",
+    "gold_sentiment": "negative",
+    "gold_category": "Geopolitical"
+  },
+  {
+    "id": "news-017",
+    "source": "news",
+    "outlet": "MarketDesk Demo",
+    "timestamp": "2026-09-17T15:24:00Z",
+    "headline": "Nvidia credit rating downgraded as debt concerns mount",
+    "gold_sentiment": "negative",
+    "gold_category": "Credit Event"
+  },
+  {
+    "id": "news-016",
+    "source": "news",
+    "outlet": "Synthetic Wire",
+    "timestamp": "2026-09-17T17:40:00Z",
+    "headline": "Johnson & Johnson faces default risk on maturing bonds, creditors alarmed",
+    "gold_sentiment": "negative",
+    "gold_category": "Credit Event"
+  },
+  {
+    "id": "news-018",
+    "source": "news",
+    "outlet": "Global Ledger (synthetic)",
+    "timestamp": "2026-09-17T20:49:00Z",
+    "headline": "Meta Platforms credit rating downgraded as debt concerns mount",
+    "gold_sentiment": "negative",
+    "gold_category": "Credit Event"
+  },
+  {
+    "id": "news-026",
+    "source": "news",
+    "outlet": "Synthetic Wire",
+    "timestamp": "2026-09-18T10:40:00Z",
+    "headline": "Armed conflict escalates as missile strikes hit key shipping route; global markets plunge",
+    "gold_sentiment": "negative",
+    "gold_category": "Geopolitical"
+  },
+  {
+    "id": "news-023",
+    "source": "news",
+    "outlet": "MarketDesk Demo",
+    "timestamp": "2026-09-18T12:08:00Z",
+    "headline": "Sanctions and export curbs threaten JPMorgan Chase supply chain, shares slide",
+    "gold_sentiment": "negative",
+    "gold_category": "Geopolitical"
+  },
+  {
+    "id": "news-025",
+    "source": "news",
+    "outlet": "MarketDesk Demo",
+    "timestamp": "2026-09-18T16:31:00Z",
+    "headline": "Amazon credit rating downgraded as debt concerns mount",
+    "gold_sentiment": "negative",
+    "gold_category": "Credit Event"
+  },
+  {
+    "id": "news-024",
+    "source": "news",
+    "outlet": "Demo Business Daily",
+    "timestamp": "2026-09-18T17:25:00Z",
+    "headline": "Alphabet faces default risk on maturing bonds, creditors alarmed",
+    "gold_sentiment": "negative",
+    "gold_category": "Credit Event"
+  },
+  {
+    "id": "news-022",
+    "source": "news",
+    "outlet": "MarketDesk Demo",
+    "timestamp": "2026-09-18T18:31:00Z",
+    "headline": "Disney beats earnings expectations and raises full-year guidance",
+    "gold_sentiment": "positive",
+    "gold_category": "Other"
+  },
+  {
+    "id": "news-032",
+    "source": "news",
+    "outlet": "Synthetic Wire",
+    "timestamp": "2026-09-21T09:06:00Z",
+    "headline": "JPMorgan Chase credit rating downgraded as debt concerns mount, default fears spread",
+    "gold_sentiment": "negative",
+    "gold_category": "Credit Event"
+  },
+  {
+    "id": "news-030",
+    "source": "news",
+    "outlet": "Global Ledger (synthetic)",
+    "timestamp": "2026-09-21T14:10:00Z",
+    "headline": "Amazon delays product launch after serious defects found in testing",
+    "gold_sentiment": "negative",
+    "gold_category": "Product Launch"
+  },
+  {
+    "id": "news-027",
+    "source": "news",
+    "outlet": "Synthetic Wire",
+    "timestamp": "2026-09-21T14:24:00Z",
+    "headline": "Nvidia warns of heavy losses as costs surge",
+    "gold_sentiment": "negative",
+    "gold_category": "Other"
+  },
+  {
+    "id": "news-028",
+    "source": "news",
+    "outlet": "Global Ledger (synthetic)",
+    "timestamp": "2026-09-21T16:55:00Z",
+    "headline": "Sanctions and export curbs threaten Chevron supply chain, shares slide",
+    "gold_sentiment": "negative",
+    "gold_category": "Geopolitical"
+  },
+  {
+    "id": "news-031",
+    "source": "news",
+    "outlet": "MarketDesk Demo",
+    "timestamp": "2026-09-21T16:58:00Z",
+    "headline": "Recession fears grow as unemployment jumps and GDP contracts sharply",
+    "gold_sentiment": "negative",
+    "gold_category": "Macroeconomic"
+  },
+  {
+    "id": "news-029",
+    "source": "news",
+    "outlet": "Global Ledger (synthetic)",
+    "timestamp": "2026-09-21T20:41:00Z",
+    "headline": "Apple delays product launch after serious defects found in testing",
+    "gold_sentiment": "negative",
+    "gold_category": "Product Launch"
+  },
+  {
+    "id": "news-036",
+    "source": "news",
+    "outlet": "MarketDesk Demo",
+    "timestamp": "2026-09-22T08:15:00Z",
+    "headline": "Coca-Cola secures credit rating upgrade after strong debt reduction",
+    "gold_sentiment": "positive",
+    "gold_category": "Credit Event"
+  },
+  {
+    "id": "news-037",
+    "source": "news",
+    "outlet": "Synthetic Wire",
+    "timestamp": "2026-09-22T09:05:00Z",
+    "headline": "Central bank shocks markets with surprise rate hike as inflation surges and recession fears grow",
+    "gold_sentiment": "negative",
+    "gold_category": "Macroeconomic"
+  },
+  {
+    "id": "news-033",
+    "source": "news",
+    "outlet": "MarketDesk Demo",
+    "timestamp": "2026-09-22T10:23:00Z",
+    "headline": "Coca-Cola secures credit rating upgrade after strong debt reduction",
+    "gold_sentiment": "positive",
+    "gold_category": "Credit Event"
+  },
+  {
+    "id": "news-035",
+    "source": "news",
+    "outlet": "Synthetic Wire",
+    "timestamp": "2026-09-22T13:56:00Z",
+    "headline": "Bank of America unveils new product line, analysts applaud strong early demand",
+    "gold_sentiment": "positive",
+    "gold_category": "Product Launch"
+  },
+  {
+    "id": "news-034",
+    "source": "news",
+    "outlet": "Synthetic Wire",
+    "timestamp": "2026-09-22T17:20:00Z",
+    "headline": "Walmart announces merger with industry peer, shares jump on growth outlook",
+    "gold_sentiment": "positive",
+    "gold_category": "Merger/Acquisition"
+  },
+  {
+    "id": "news-041",
+    "source": "news",
+    "outlet": "MarketDesk Demo",
+    "timestamp": "2026-09-23T16:48:00Z",
+    "headline": "Chevron warns of heavy losses as costs surge",
+    "gold_sentiment": "negative",
+    "gold_category": "Other"
+  },
+  {
+    "id": "news-040",
+    "source": "news",
+    "outlet": "Global Ledger (synthetic)",
+    "timestamp": "2026-09-23T16:55:00Z",
+    "headline": "Exxon Mobil announces merger with industry peer, shares jump on growth outlook",
+    "gold_sentiment": "positive",
+    "gold_category": "Merger/Acquisition"
+  },
+  {
+    "id": "news-039",
+    "source": "news",
+    "outlet": "MarketDesk Demo",
+    "timestamp": "2026-09-23T18:30:00Z",
+    "headline": "Walmart to acquire rival in deal expected to boost earnings and synergies",
+    "gold_sentiment": "positive",
+    "gold_category": "Merger/Acquisition"
+  },
+  {
+    "id": "news-038",
+    "source": "news",
+    "outlet": "Synthetic Wire",
+    "timestamp": "2026-09-23T20:34:00Z",
+    "headline": "Microsoft schedules annual shareholder meeting for next month",
+    "gold_sentiment": "neutral",
+    "gold_category": "Other"
+  },
+  {
+    "id": "news-045",
+    "source": "news",
+    "outlet": "MarketDesk Demo",
+    "timestamp": "2026-09-24T08:04:00Z",
+    "headline": "Exxon Mobil credit rating downgraded as debt concerns mount",
+    "gold_sentiment": "negative",
+    "gold_category": "Credit Event"
+  },
+  {
+    "id": "news-044",
+    "source": "news",
+    "outlet": "Global Ledger (synthetic)",
+    "timestamp": "2026-09-24T08:37:00Z",
+    "headline": "Alphabet introduces next-generation platform to enthusiastic reviews",
+    "gold_sentiment": "positive",
+    "gold_category": "Product Launch"
+  },
+  {
+    "id": "news-046",
+    "source": "news",
+    "outlet": "Synthetic Wire",
+    "timestamp": "2026-09-24T09:03:00Z",
+    "headline": "Disney to acquire rival studio in deal expected to boost earnings and synergies",
+    "gold_sentiment": "positive",
+    "gold_category": "Merger/Acquisition"
+  },
+  {
+    "id": "news-043",
+    "source": "news",
+    "outlet": "Demo Business Daily",
+    "timestamp": "2026-09-24T09:15:00Z",
+    "headline": "Sanctions and export curbs threaten Amazon supply chain, shares slide",
+    "gold_sentiment": "negative",
+    "gold_category": "Geopolitical"
+  },
+  {
+    "id": "news-042",
+    "source": "news",
+    "outlet": "Demo Business Daily",
+    "timestamp": "2026-09-24T18:41:00Z",
+    "headline": "Alphabet secures credit rating upgrade after strong debt reduction",
+    "gold_sentiment": "positive",
+    "gold_category": "Credit Event"
+  },
+  {
+    "id": "news-050",
+    "source": "news",
+    "outlet": "MarketDesk Demo",
+    "timestamp": "2026-09-25T09:06:00Z",
+    "headline": "Bank of America warns of heavy losses as costs surge",
+    "gold_sentiment": "negative",
+    "gold_category": "Other"
+  },
+  {
+    "id": "news-051",
+    "source": "news",
+    "outlet": "Synthetic Wire",
+    "timestamp": "2026-09-25T09:22:00Z",
+    "headline": "Ceasefire agreement reached, peace talks ease tensions and markets rally strongly",
+    "gold_sentiment": "positive",
+    "gold_category": "Geopolitical"
+  },
+  {
+    "id": "news-049",
+    "source": "news",
+    "outlet": "Demo Business Daily",
+    "timestamp": "2026-09-25T11:50:00Z",
+    "headline": "Alphabet to acquire rival in deal expected to boost earnings and synergies",
+    "gold_sentiment": "positive",
+    "gold_category": "Merger/Acquisition"
+  },
+  {
+    "id": "news-047",
+    "source": "news",
+    "outlet": "Synthetic Wire",
+    "timestamp": "2026-09-25T13:04:00Z",
+    "headline": "Alphabet introduces next-generation platform to enthusiastic reviews",
+    "gold_sentiment": "positive",
+    "gold_category": "Product Launch"
+  },
+  {
+    "id": "news-048",
+    "source": "news",
+    "outlet": "Global Ledger (synthetic)",
+    "timestamp": "2026-09-25T18:31:00Z",
+    "headline": "Exxon Mobil credit rating downgraded as debt concerns mount",
+    "gold_sentiment": "negative",
+    "gold_category": "Credit Event"
+  },
+  {
+    "id": "news-057",
+    "source": "news",
+    "outlet": "Synthetic Wire",
+    "timestamp": "2026-09-28T09:55:00Z",
+    "headline": "Pfizer reports record profit and announces share buyback after strong trial results",
+    "gold_sentiment": "positive",
+    "gold_category": "Other"
+  },
+  {
+    "id": "news-054",
+    "source": "news",
+    "outlet": "MarketDesk Demo",
+    "timestamp": "2026-09-28T11:12:00Z",
+    "headline": "Amazon delays product launch after serious defects found in testing",
+    "gold_sentiment": "negative",
+    "gold_category": "Product Launch"
+  },
+  {
+    "id": "news-055",
+    "source": "news",
+    "outlet": "MarketDesk Demo",
+    "timestamp": "2026-09-28T14:11:00Z",
+    "headline": "Sanctions and export curbs threaten Exxon Mobil supply chain, shares slide",
+    "gold_sentiment": "negative",
+    "gold_category": "Geopolitical"
+  },
+  {
+    "id": "news-053",
+    "source": "news",
+    "outlet": "Synthetic Wire",
+    "timestamp": "2026-09-28T14:46:00Z",
+    "headline": "Johnson & Johnson delays product launch after serious defects found in testing",
+    "gold_sentiment": "negative",
+    "gold_category": "Product Launch"
+  },
+  {
+    "id": "news-056",
+    "source": "news",
+    "outlet": "Synthetic Wire",
+    "timestamp": "2026-09-28T15:51:00Z",
+    "headline": "Central bank shocks markets with surprise rate hike as inflation surges",
+    "gold_sentiment": "negative",
+    "gold_category": "Macroeconomic"
+  },
+  {
+    "id": "news-052",
+    "source": "news",
+    "outlet": "Demo Business Daily",
+    "timestamp": "2026-09-28T19:03:00Z",
+    "headline": "JPMorgan Chase warns of heavy losses as costs surge",
+    "gold_sentiment": "negative",
+    "gold_category": "Other"
+  },
+  {
+    "id": "news-061",
+    "source": "news",
+    "outlet": "Synthetic Wire",
+    "timestamp": "2026-09-29T10:24:00Z",
+    "headline": "Alphabet reports record profit and announces share buyback",
+    "gold_sentiment": "positive",
+    "gold_category": "Other"
+  },
+  {
+    "id": "news-060",
+    "source": "news",
+    "outlet": "Demo Business Daily",
+    "timestamp": "2026-09-29T15:30:00Z",
+    "headline": "Alphabet announces merger with industry peer, shares jump on growth outlook",
+    "gold_sentiment": "positive",
+    "gold_category": "Merger/Acquisition"
+  },
+  {
+    "id": "news-058",
+    "source": "news",
+    "outlet": "Synthetic Wire",
+    "timestamp": "2026-09-29T18:34:00Z",
+    "headline": "Coca-Cola delays product launch after serious defects found in testing",
+    "gold_sentiment": "negative",
+    "gold_category": "Product Launch"
+  },
+  {
+    "id": "news-062",
+    "source": "news",
+    "outlet": "Global Ledger (synthetic)",
+    "timestamp": "2026-09-29T20:50:00Z",
+    "headline": "Ceasefire agreement reached, peace talks ease tensions and markets rally",
+    "gold_sentiment": "positive",
+    "gold_category": "Geopolitical"
+  },
+  {
+    "id": "news-059",
+    "source": "news",
+    "outlet": "Synthetic Wire",
+    "timestamp": "2026-09-29T20:54:00Z",
+    "headline": "Coca-Cola unveils new product line, analysts applaud strong early demand",
+    "gold_sentiment": "positive",
+    "gold_category": "Product Launch"
+  }
+]
